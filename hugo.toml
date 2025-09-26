@@ -1,0 +1,89 @@
+baseURL = "http://example.org/"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# website title
+title = "My New Hugo Site"
+
+defaultContentLanguage = "de"
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "de"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "Deutsch"
+
+copyright = ""
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
+[params]
+    defaultTheme = "auto"
+    gitRepo = "https://github.com/dillonzq/LoveIt"
+    dateFormat = "2006-01-02"
+    title = "LoveIt"
+    description = "Hugo theme - LoveIt"
+    [params.author]
+        name = "ElecKids"
+        email = ""
+        link = ""
+
+    [params.header]
+        desktopMode = "fixed"
+        mobileMode = "auto"
+        [params.header.title]
+            logo = ""
+            name = "ElecKids"
+    [params.footer]
+        enable = true
+        custom = ""
+        hugo = true
+        copyright = true
+        author = true
+        since = 2025
+    [params.home]
+        rss = 10
+        [params.home.profile]
+            enable = true
+            title = "Willkommen bei ElecKids"
+            subtitle = "content is loading..."
+        [params.home.posts]
+            enable = true
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
