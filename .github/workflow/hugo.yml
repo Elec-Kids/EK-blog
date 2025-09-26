@@ -26,7 +26,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://eleckids.github.io/EK-blog/"
+        run: hugo --minify --baseURL "https://elec-kids.github.io/EK-blog/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
