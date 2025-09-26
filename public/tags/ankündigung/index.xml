@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ankündigung on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/ank%C3%BCndigung/</link>
-    <description>Recent content in Ankündigung on My New Hugo Site</description>
+    <title>Ankündigung on ElecKids - Homepage</title>
+    <link>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</link>
+    <description>Recent content in Ankündigung on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ank%C3%BCndigung/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Willkommen bei ElecKids!</title>
-      <link>http://localhost:1313/posts/willkommen-bei-eleckids/</link>
+      <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/willkommen-bei-eleckids/</guid>
-      <description>&lt;h1 id=&#34;willkommen&#34;&gt;Willkommen&lt;/h1&gt;&#xA;&lt;h2 id=&#34;wer-oder-was-bin-ich&#34;&gt;Wer oder was bin ich?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;nützliche-informationen&#34;&gt;Nützliche Informationen&lt;/h2&gt;&#xA;&lt;h2 id=&#34;was-gibt-es-hier&#34;&gt;Was gibt es hier&lt;/h2&gt;&#xA;&lt;h2 id=&#34;wo-bin-ich-zu-finden&#34;&gt;Wo bin ich zu finden?&lt;/h2&gt;</description>
+      <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
+      <description>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!</description>
     </item>
   </channel>
 </rss>

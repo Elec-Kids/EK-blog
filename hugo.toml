@@ -4,7 +4,7 @@ baseURL = "https://elec-kids.github.io/EK-blog/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "ElecKids - Homepage"
 
 defaultContentLanguage = "de"
 # language code ["en", "zh-CN", "fr", "pl", ...]
@@ -40,7 +40,7 @@ copyright = ""
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "Kategorien"
     url = "/categories/"
     title = ""
 

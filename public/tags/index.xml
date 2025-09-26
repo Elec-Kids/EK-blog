@@ -1,39 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on ElecKids - Homepage</title>
+    <link>http://localhost:1313/EK-blog/tags/</link>
+    <description>Recent content in Tags on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/EK-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ankündigung</title>
-      <link>http://localhost:1313/tags/ank%C3%BCndigung/</link>
+      <link>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ank%C3%BCndigung/</guid>
+      <guid>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basteln</title>
+      <link>http://localhost:1313/EK-blog/tags/basteln/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/basteln/</guid>
       <description></description>
     </item>
     <item>
       <title>ElecKids</title>
-      <link>http://localhost:1313/tags/eleckids/</link>
+      <link>http://localhost:1313/EK-blog/tags/eleckids/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eleckids/</guid>
+      <guid>http://localhost:1313/EK-blog/tags/eleckids/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elektronik</title>
+      <link>http://localhost:1313/EK-blog/tags/elektronik/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/elektronik/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuigkeiten</title>
-      <link>http://localhost:1313/tags/neuigkeiten/</link>
+      <link>http://localhost:1313/EK-blog/tags/neuigkeiten/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neuigkeiten/</guid>
+      <guid>http://localhost:1313/EK-blog/tags/neuigkeiten/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
-      <link>http://localhost:1313/tags/news/</link>
+      <link>http://localhost:1313/EK-blog/tags/news/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/news/</guid>
+      <guid>http://localhost:1313/EK-blog/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programmieren</title>
+      <link>http://localhost:1313/EK-blog/tags/programmieren/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/programmieren/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Start</title>
+      <link>http://localhost:1313/EK-blog/tags/start/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/start/</guid>
       <description></description>
     </item>
   </channel>

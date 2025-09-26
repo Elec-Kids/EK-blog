@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/categories/news/</link>
-    <description>Recent content in News on ElecKids - Homepage</description>
+    <title>Programmieren on ElecKids - Homepage</title>
+    <link>http://localhost:1313/EK-blog/tags/programmieren/</link>
+    <description>Recent content in Programmieren on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/EK-blog/tags/programmieren/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Willkommen bei ElecKids!</title>
       <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>

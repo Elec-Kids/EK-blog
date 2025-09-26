@@ -1,17 +1,19 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
-        <link>http://localhost:1313/</link>
+        <title>ElecKids - Homepage</title>
+        <link>http://localhost:1313/EK-blog/</link>
         <description>Hugo theme - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Thu, 25 Sep 2025 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/EK-blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Willkommen bei ElecKids!</title>
-    <link>http://localhost:1313/posts/willkommen-bei-eleckids/</link>
+    <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
     <pubDate>Thu, 25 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>ElecKids</author>
-    <guid>http://localhost:1313/posts/willkommen-bei-eleckids/</guid>
-    <description><![CDATA[Kurzvorstellung von ElecKids und was dich hier erwartet.]]></description>
+    <author>Lumi-Fuch</author>
+    <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_willkommen.png" referrerpolicy="no-referrer">
+            </div>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!]]></description>
 </item>
 </channel>
 </rss>
