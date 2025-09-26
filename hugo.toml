@@ -1,5 +1,4 @@
-baseURL = "https://elec-kids.github.io/EK-blog/
-"
+baseURL = "https://elec-kids.github.io/EK-blog/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
