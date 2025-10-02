@@ -18,7 +18,7 @@ Hallo, liebe Entdecker, Tüftler und Zukunfts-Erfinder! 🌟 Euer Lumi-Fuchs und
 
 Stell dir vor, du könntest Lichter zum Tanzen bringen, Sensoren die Welt fühlen lassen und Bildschirme deine Botschaften anzeigen. Klingt nach Superkräften, oder? Bei ElecKids zeigen wir dir, wie du genau das mit deinen eigenen Händen und ein bisschen Code schaffen kannst!
 
-**ElecKids ist deine ultimative Lernplattform für Elektrotechnik, Programmieren und Basteln.** Wir haben uns auf den **ESP8266** und den **Raspberry Pi Pico (RP2040)** spezialisiert – das sind kleine, super-schlaue Computer, die das Herzstück deiner Projekte bilden werden. Egal, ob du 10 oder 14 Jahre alt bist, bei uns lernst du spielerisch und mit viel Spaß, wie die digitale Welt funktioniert und wie du sie selbst gestalten kannst. Wir glauben fest daran, dass jeder ein kleiner Erfinder sein kann! 💡
+**ElecKids ist deine ultimative Lernplattform für Elektrotechnik, Programmieren und Basteln.** Wir haben uns auf die **ESP-Serie** und den **Raspberry Pi Pico** spezialisiert – das sind kleine, super-schlaue Computer, die das Herzstück deiner Projekte bilden werden. Egal, ob du 10 oder 14 Jahre alt bist, bei uns lernst du spielerisch und mit viel Spaß, wie die digitale Welt funktioniert und wie du sie selbst gestalten kannst. Wir glauben fest daran, dass jeder ein kleiner Erfinder sein kann! 💡
 
 ## Nützliche Informationen – Dein Starter-Kit für clevere Köpfe! 🧠
 

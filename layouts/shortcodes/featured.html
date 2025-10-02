@@ -1,0 +1,7 @@
+<div class="featured-box" style="padding:1rem;border:2px solid #DC6200;border-radius:12px;background:#FFF7E0">
+  <a href="{{ with .Get "url" }}{{ . }}{{ else }}{{ (site.GetPage (.Get "ref")).RelPermalink }}{{ end }}"
+     style="text-decoration:none;color:#DC6200;font-weight:700">
+    {{ .Get "title" }}
+  </a>
+  {{ with .Get "desc" }}<p style="margin:.5rem 0 0;color:#41302B">{{ . }}</p>{{ end }}
+</div>

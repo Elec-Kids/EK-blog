@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head><script src="/EK-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=EK-blog/livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)! - ElecKids - Homepage</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/">
+  <meta property="og:site_name" content="ElecKids - Homepage">
+  <meta property="og:title" content="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!">
+  <meta property="og:description" content="Lerne die zwei coolsten Mikrocontroller kennen: den ESP8266 mit Superkräften für WLAN und den Raspberry Pi Pico (RP2040) als blitzschnellen Alleskönner. Finde heraus, welcher der richtige für dein nächstes Projekt ist!">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-28T00:00:00+00:00">
+    <meta property="article:tag" content="ESP8266">
+    <meta property="article:tag" content="RP2040">
+    <meta property="article:tag" content="Mikrocontroller">
+    <meta property="article:tag" content="WLAN">
+    <meta property="article:tag" content="Bluetooth">
+    <meta property="article:tag" content="Tutorials">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!">
+  <meta name="twitter:description" content="Lerne die zwei coolsten Mikrocontroller kennen: den ESP8266 mit Superkräften für WLAN und den Raspberry Pi Pico (RP2040) als blitzschnellen Alleskönner. Finde heraus, welcher der richtige für dein nächstes Projekt ist!">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" /><link rel="prev" href="http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/" /><link rel="next" href="http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/" /><link rel="stylesheet" href="/EK-blog/css/style.min.css"><link rel="preload" href="/EK-blog/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/EK-blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/EK-blog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/EK-blog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!",
+        "inLanguage": "de",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/EK-blog\/posts\/superhelden-deiner-projekte\/"
+        },"genre": "posts","keywords": "ESP8266, RP2040, Mikrocontroller, WLAN, Bluetooth, Tutorials","wordcount":  653 ,
+        "url": "http:\/\/localhost:1313\/EK-blog\/posts\/superhelden-deiner-projekte\/","datePublished": "2025-09-28T00:00:00+00:00","dateModified": "2025-09-28T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "ElecKids"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/EK-blog/" title="ElecKids - Homepage">ElecKids</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/EK-blog/posts/"> Posts </a><a class="menu-item" href="/EK-blog/tags/"> Tags </a><a class="menu-item" href="/EK-blog/categories/"> Kategorien </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Darstellung ändern">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/EK-blog/" title="ElecKids - Homepage">ElecKids</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/EK-blog/posts/" title="">Posts</a><a class="menu-item" href="/EK-blog/tags/" title="">Tags</a><a class="menu-item" href="/EK-blog/categories/" title="">Kategorien</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Darstellung ändern">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Inhalt</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/EK-blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>ElecKids</a></span>&nbsp;<span class="post-category">Enthalten in <a href="/EK-blog/categories/tutorials/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tutorials</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-09-28">2025-09-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;653 Wörter&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 Minuten&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/EK-blog/svg/loading.min.svg"
+        data-src="/EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png"
+        data-srcset="/EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png, /EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png 1.5x, /EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png 2x"
+        data-sizes="auto"
+        alt="/EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png"
+        title="/EK-blog/posts/superhelden-deiner-projekte/header_microcontr.png" width="1536" height="1024" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Inhalt</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#was-ist-ein-esp--dein-wlan-zauberer-">Was ist ein ESP? – Dein WLAN-Zauberer! 📶</a>
+      <ul>
+        <li><a href="#der-esp8266--der-kleine-internet-star-">Der ESP8266 – Der kleine Internet-Star 🌟</a></li>
+      </ul>
+    </li>
+    <li><a href="#was-ist-ein-raspberry-pi-pico-rp2040--dein-blitzschneller-alleskönner-">Was ist ein Raspberry Pi Pico (RP2040)? – Dein blitzschneller Alleskönner! ⚡</a>
+      <ul>
+        <li><a href="#der-rp2040--der-schnelle-denker-">Der RP2040 – Der schnelle Denker 💨</a></li>
+      </ul>
+    </li>
+    <li><a href="#esp8266-vs-rp2040--wer-ist-der-beste-">ESP8266 vs. RP2040 – Wer ist der Beste? 🤔🆚💡</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="die-superhelden-deiner-projekte-esp8266-und-raspberry-pi-pico-rp2040-">Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)! 🦸‍♂️🦸‍♀️</h1>
+<p>Hallo, meine kleinen Technik-Champions! 🦊 Euer Lumi-Fuchs ist wieder da, und heute stellen wir euch zwei echte Stars der Mikrocontroller-Welt vor: den <strong>ESP8266</strong> und den <strong>Raspberry Pi Pico (RP2040)</strong>! Das sind die kleinen Gehirne, die wir in unseren ElecKids-Projekten benutzen, um super-coole Dinge zu bauen. Aber was können sie eigentlich, und worin unterscheiden sie sich? Lasst es uns herausfinden! ✨</p>
+<h2 id="was-ist-ein-esp--dein-wlan-zauberer-">Was ist ein ESP? – Dein WLAN-Zauberer! 📶</h2>
+<p>Stell dir vor, du hast einen Mikrocontroller, der nicht nur LEDs blinken lassen oder Sensoren auslesen kann, sondern auch noch mit dem Internet sprechen kann! Das ist der <strong>ESP</strong>! Die bekanntesten sind der <strong>ESP8266</strong> und sein größerer Bruder, der ESP32.</p>
+<h3 id="der-esp8266--der-kleine-internet-star-">Der ESP8266 – Der kleine Internet-Star 🌟</h3>
+<p>Der ESP8266 ist wie ein kleiner Magier, der deine Projekte mit dem Internet verbindet. Er hat nämlich <strong>WLAN</strong> eingebaut! Das bedeutet, er kann sich mit deinem Heimnetzwerk verbinden, Nachrichten ins Internet schicken oder sogar Daten von Webseiten abrufen. Stell dir vor, deine Wetterstation könnte die aktuellen Wetterdaten direkt an dein Handy senden oder deine smarte Lampe könnte wissen, wann die Sonne untergeht, um sich automatisch einzuschalten!</p>
+<p><strong>Was er besonders gut kann:</strong></p>
+<ul>
+<li><strong>WLAN:</strong> Ganz klar seine Superkraft! Er ist perfekt für Projekte, die mit dem Internet verbunden sein sollen.</li>
+<li><strong>Klein und günstig:</strong> Er passt fast überall hin und ist nicht teuer, was ihn super für viele Experimente macht.</li>
+<li><strong>Einfach zu programmieren:</strong> Mit Sprachen wie MicroPython oder der Arduino IDE kannst du ihm schnell beibringen, was er tun soll.</li>
+</ul>
+<h2 id="was-ist-ein-raspberry-pi-pico-rp2040--dein-blitzschneller-alleskönner-">Was ist ein Raspberry Pi Pico (RP2040)? – Dein blitzschneller Alleskönner! ⚡</h2>
+<p>Der <strong>Raspberry Pi Pico</strong> ist ein anderer Superheld, der ein ganz besonderes Gehirn hat: den <strong>RP2040</strong>-Chip. Er ist zwar nicht direkt mit WLAN ausgestattet (es gibt aber eine Version mit WLAN, den Pico W!), aber er ist unglaublich schnell und super-flexibel. Denk an ihn als einen Sportwagen unter den Mikrocontrollern – er ist dafür gemacht, viele Dinge gleichzeitig und blitzschnell zu erledigen.</p>
+<h3 id="der-rp2040--der-schnelle-denker-">Der RP2040 – Der schnelle Denker 💨</h3>
+<p>Der RP2040 ist das Gehirn des Raspberry Pi Pico. Er hat nicht nur einen, sondern gleich <strong>zwei Prozessoren</strong>! Das ist so, als hätte er zwei kleine Gehirne, die gleichzeitig arbeiten können. Dadurch kann er super-komplexe Aufgaben erledigen, viele Sensoren gleichzeitig überwachen oder sogar kleine Roboter steuern, die präzise Bewegungen brauchen.</p>
+<p><strong>Was er besonders gut kann:</strong></p>
+<ul>
+<li><strong>Schnell und leistungsstark:</strong> Seine zwei Gehirne machen ihn zu einem echten Power-Paket.</li>
+<li><strong>Viele Anschlüsse:</strong> Er hat ganz viele &ldquo;Arme und Beine&rdquo; (Pins), an die du Sensoren, LEDs und andere Bauteile anschließen kannst.</li>
+<li><strong>Flexibel:</strong> Du kannst ihn mit MicroPython oder C++ programmieren und er ist super für Projekte, die viel Rechenleistung brauchen oder viele Dinge gleichzeitig steuern sollen.</li>
+</ul>
+<h2 id="esp8266-vs-rp2040--wer-ist-der-beste-">ESP8266 vs. RP2040 – Wer ist der Beste? 🤔🆚💡</h2>
+<p>Es gibt keinen &ldquo;besten&rdquo; Mikrocontroller, denn jeder ist für andere Aufgaben ein Superheld! Hier ist ein kleiner Vergleich, damit du weißt, wann du welchen einsetzen solltest:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">ESP8266</th>
+          <th style="text-align: left">Raspberry Pi Pico (RP2040)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>WLAN</strong></td>
+          <td style="text-align: left">✅ Ja, eingebaut!</td>
+          <td style="text-align: left">❌ Nein (aber der Pico W hat es!)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Geschwindigkeit</strong></td>
+          <td style="text-align: left">Gut, aber nicht so schnell wie der Pico</td>
+          <td style="text-align: left">✅ Sehr schnell (zwei Prozessoren!)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Anschlüsse</strong></td>
+          <td style="text-align: left">Genug für viele Projekte</td>
+          <td style="text-align: left">✅ Sehr viele, super flexibel</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Preis</strong></td>
+          <td style="text-align: left">Sehr günstig</td>
+          <td style="text-align: left">Sehr günstig</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Ideal für&hellip;</strong></td>
+          <td style="text-align: left">Projekte mit Internet (smarte Lampen, Wetterdaten-Upload)</td>
+          <td style="text-align: left">Schnelle Reaktionen, viele Sensoren, Roboter, Spiele</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Lumi-Fuchs&rsquo; Tipp:</strong></p>
+<ul>
+<li>Wenn dein Projekt <strong>mit dem Internet sprechen</strong> soll (z.B. Wetterdaten hochladen, Nachrichten empfangen), dann ist der <strong>ESP8266</strong> (oder ESP32) dein bester Freund!</li>
+<li>Wenn dein Projekt <strong>super-schnell sein muss</strong>, viele Dinge gleichzeitig steuern soll oder du viele Sensoren anschließen möchtest, dann ist der <strong>Raspberry Pi Pico (RP2040)</strong> die richtige Wahl!</li>
+</ul>
+<p>In unseren ElecKids-Projekten wirst du beide kennenlernen und lernen, wie du ihre Superkräfte für deine eigenen Erfindungen nutzen kannst. Es ist wie ein Werkzeugkasten: Für jede Aufgabe gibt es das passende Werkzeug!</p>
+<p><strong>Bist du bereit, deine eigenen Superhelden zu programmieren?</strong> Dann schnapp dir deinen Lieblings-Mikrocontroller und lass uns die Welt ein bisschen smarter machen!</p>
+<p><strong>Dein Lumi-Fuchs – Dein Mikrocontroller-Guide!</strong> 🦊💻⚡🌟</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Aktualisiert am 2025-09-28</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Teilen auf Twitter" data-sharer="twitter" data-url="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" data-title="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!" data-hashtags="ESP8266,RP2040,Mikrocontroller,WLAN,Bluetooth,Tutorials"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" data-hashtag="ESP8266"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" data-title="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Line" data-sharer="line" data-url="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" data-title="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!"><i data-svg-src="/EK-blog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/" data-title="Die Superhelden deiner Projekte: ESP8266 und Raspberry Pi Pico (RP2040)!" data-image="header_microcontr.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/EK-blog/tags/esp8266/">ESP8266</a>,&nbsp;<a href="/EK-blog/tags/rp2040/">RP2040</a>,&nbsp;<a href="/EK-blog/tags/mikrocontroller/">Mikrocontroller</a>,&nbsp;<a href="/EK-blog/tags/wlan/">WLAN</a>,&nbsp;<a href="/EK-blog/tags/bluetooth/">Bluetooth</a>,&nbsp;<a href="/EK-blog/tags/tutorials/">Tutorials</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Zurück</a></span>&nbsp;|&nbsp;<span><a href="/EK-blog/">Startseite</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/EK-blog/posts/willkommen-bei-eleckids/" class="prev" rel="prev" title="Willkommen bei ElecKids!"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Willkommen bei ElecKids!</a>
+            <a href="/EK-blog/posts/was-ist-ein-mikrokontroller/" class="next" rel="next" title="Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?">Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.150.1">Hugo</a> | Thema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/EK-blog/" target="_blank">ElecKids</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Nach oben">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Kommentare anzeigen">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="/EK-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/EK-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/EK-blog/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"In Zwischenablage kopieren","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/EK-blog/js/theme.min.js"></script></body>
+</html>
