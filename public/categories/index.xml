@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on ElecKids - Homepage</title><link>https://elec-kids.github.io/EK-blog/categories/</link><description>Recent content in Categories on ElecKids - Homepage</description><generator>Hugo</generator><language>de</language><lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://elec-kids.github.io/EK-blog/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Elterninfo</title><link>https://elec-kids.github.io/EK-blog/categories/elterninfo/</link><pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate><guid>https://elec-kids.github.io/EK-blog/categories/elterninfo/</guid><description/></item><item><title>News</title><link>https://elec-kids.github.io/EK-blog/categories/news/</link><pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate><guid>https://elec-kids.github.io/EK-blog/categories/news/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ElecKids - Homepage</title>
+    <link>http://localhost:1313/EK-blog/categories/</link>
+    <description>Recent content in Categories on ElecKids - Homepage</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/EK-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elterninfo</title>
+      <link>http://localhost:1313/EK-blog/categories/elterninfo/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/elterninfo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>http://localhost:1313/EK-blog/categories/news/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/EK-blog/categories/tutorials/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/tutorials/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,37 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Alle Artikel - ElecKids - Homepage</title><link>https://elec-kids.github.io/EK-blog/posts/</link><description>Alle Artikel | ElecKids - Homepage</description><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://elec-kids.github.io/EK-blog/posts/" rel="self" type="application/rss+xml"/><item><title>Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!</title><link>https://elec-kids.github.io/EK-blog/posts/inhalte-auf-eleckids/</link><pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate><author>ElecKids</author><guid>https://elec-kids.github.io/EK-blog/posts/inhalte-auf-eleckids/</guid><description>&lt;div class="featured-image">
-                &lt;img src="/EK-blog/header_inhalte.png" referrerpolicy="no-referrer">
-            &lt;/div>Erfahre, wie wir bei ElecKids spannende und kindgerechte Inhalte erstellen – mit einer cleveren Mischung aus modernster KI-Technologie und der Expertise eines erfahrenen Ingenieurs. Qualität und Sicherheit stehen bei uns an erster Stelle!</description></item><item><title>Willkommen bei ElecKids!</title><link>https://elec-kids.github.io/EK-blog/posts/willkommen-bei-eleckids/</link><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate><author>Lumi-Fuch</author><guid>https://elec-kids.github.io/EK-blog/posts/willkommen-bei-eleckids/</guid><description>&lt;div class="featured-image">
-                &lt;img src="/EK-blog/header_willkommen.png" referrerpolicy="no-referrer">
-            &lt;/div>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Alle Artikel - ElecKids - Homepage</title>
+        <link>http://localhost:1313/EK-blog/posts/</link>
+        <description>Alle Artikel | ElecKids - Homepage</description>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Thu, 02 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/EK-blog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!</title>
+    <link>http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/</link>
+    <pubDate>Thu, 02 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>ElecKids</author>
+    <guid>http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_inhalte.png" referrerpolicy="no-referrer">
+            </div>Erfahre, wie wir bei ElecKids spannende und kindgerechte Inhalte erstellen – mit einer cleveren Mischung aus modernster KI-Technologie und der Expertise eines erfahrenen Ingenieurs. Qualität und Sicherheit stehen bei uns an erster Stelle!]]></description>
+</item>
+<item>
+    <title>Die Superhelden-Teams deiner Projekte: ESP8266 und Raspberry Pi Pico!</title>
+    <link>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</link>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>ElecKids</author>
+    <guid>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_microcontr.png" referrerpolicy="no-referrer">
+            </div>Lerne die zwei coolsten Entwicklerboards kennen: das ESP8266-Board mit Superkräften für WLAN und das Raspberry Pi Pico Board mit dem blitzschnellen RP2040-Chip. Finde heraus, welches Team perfekt für dein nächstes Projekt ist!]]></description>
+</item>
+<item>
+    <title>Willkommen bei ElecKids!</title>
+    <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuch</author>
+    <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_willkommen.png" referrerpolicy="no-referrer">
+            </div>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!]]></description>
+</item>
+</channel>
+</rss>
