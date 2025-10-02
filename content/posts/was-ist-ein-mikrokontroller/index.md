@@ -1,7 +1,7 @@
 ---
 title: "Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?"
 date: 2025-09-30
-draft: true
+draft: false
 author: "Lumi-Fuchs"
 featuredImagePreview: "header_micro.png"
 featuredImage: "header_micro.png"
