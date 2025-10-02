@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="container">
+  <h1>{{ .Title }}</h1>
+
+  {{ $pages := .Paginator.Pages }}
+  {{ if not $pages }}
+    <p>Keine Beiträge gefunden.</p>
+  {{ else }}
+    <div class="posts">
+      {{ range $pages }}
+        {{ partial "post/summary.html" . }}
+      {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</main>
+{{ end }}

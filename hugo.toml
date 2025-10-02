@@ -77,6 +77,10 @@ copyright = ""
         [params.home.posts]
             enable = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 
 # Markup related configuration in Hugo
 [markup]
