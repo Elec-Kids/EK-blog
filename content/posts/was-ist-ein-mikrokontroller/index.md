@@ -1,8 +1,10 @@
 ---
 title: "Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?"
-date: 2025-09-28
+date: 2025-09-30
 draft: true
 author: "Lumi-Fuchs"
+featuredImagePreview: "header_micro.png"
+featuredImage: "header_micro.png"
 tags: ["Mikrocontroller", "Programmieren", "Elektronik", "Code", "Gehirn", "Tutorials"]
 categories: ["Tutorials"]
 summary: "Entdecke, was ein Mikrocontroller ist, wie dieses kleine Computer-Gehirn funktioniert und wie du ihm beibringen kannst, deine Ideen umzusetzen!"
@@ -68,7 +70,7 @@ Um dem Mikrocontroller etwas beizubringen, brauchst du ein paar Dinge:
 
 Ist das nicht cool? Du bist der Chef, und der Mikrocontroller ist dein fleißiger Helfer, der all deine Ideen zum Leben erweckt! Mit einem Mikrocontroller in der Hand kannst du fast alles bauen, was du dir vorstellen kannst. Von kleinen Robotern über intelligente Lampen bis hin zu deiner eigenen Wetterstation!
 
-**Bereit für dein erstes Mikrocontroller-Abenteuer?** Dann bleib dran, denn in den nächsten Beiträgen zeigen wir dir, welche Mikrocontroller wir bei ElecKids benutzen und wie du deine ersten Projekte damit startest!
+**Bereit für dein erstes Mikrocontroller-Abenteuer?** Dann bleib an der Reihe dran! In unseren nächsten Beiträgen begleiten wir dich Schritt für Schritt und geben dir alles an die Hand, was du brauchst, um sicher und mit viel Freude mit Mikrocontrollern zu arbeiten.
 
 **Dein Lumi-Fuchs – Dein Mikrocontroller-Mentor!** 🦊💡💻✨
 

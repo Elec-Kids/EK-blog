@@ -19,17 +19,35 @@
     <title>Die Superhelden-Teams deiner Projekte: ESP8266 und Raspberry Pi Pico!</title>
     <link>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</link>
     <pubDate>Wed, 01 Oct 2025 00:00:00 &#43;0000</pubDate>
-    <author>ElecKids</author>
+    <author>Lumi-Fuchs</author>
     <guid>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/EK-blog/header_microcontr.png" referrerpolicy="no-referrer">
             </div>Lerne die zwei coolsten Entwicklerboards kennen: das ESP8266-Board mit Superkräften für WLAN und das Raspberry Pi Pico Board mit dem blitzschnellen RP2040-Chip. Finde heraus, welches Team perfekt für dein nächstes Projekt ist!]]></description>
 </item>
 <item>
+    <title>Das unsichtbare Supertalent: Was ist Elektrizität?</title>
+    <link>http://localhost:1313/EK-blog/posts/was-ist-elek/</link>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/was-ist-elek/</guid>
+    <description><![CDATA[Tauche ein in die faszinierende Welt der Elektrizität! Erfahre kinderleicht, was Strom ist, wie er fließt und warum er so wichtig für unsere Technik-Abenteuer ist.]]></description>
+</item>
+<item>
+    <title>Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?</title>
+    <link>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</link>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_micro.png" referrerpolicy="no-referrer">
+            </div>Entdecke, was ein Mikrocontroller ist, wie dieses kleine Computer-Gehirn funktioniert und wie du ihm beibringen kannst, deine Ideen umzusetzen!]]></description>
+</item>
+<item>
     <title>Willkommen bei ElecKids!</title>
     <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
     <pubDate>Thu, 25 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>Lumi-Fuch</author>
+    <author>Lumi-Fuchs</author>
     <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/EK-blog/header_willkommen.png" referrerpolicy="no-referrer">
