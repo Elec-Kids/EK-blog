@@ -2,7 +2,7 @@
 title: "Die Superhelden-Teams deiner Projekte: ESP8266 und Raspberry Pi Pico!"
 date: 2025-10-01
 draft: false
-author: "ElecKids"
+author: "Lumi-Fuchs"
 tags: ["ESP8266", "RP2040", "Mikrocontroller", "Entwicklerboards", "WLAN", "Bluetooth", "Tutorials"]
 featuredImagePreview: "header_microcontr.png"
 featuredImage: "header_microcontr.png"

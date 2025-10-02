@@ -2,7 +2,7 @@
 title: "Willkommen bei ElecKids!"
 date: 2025-09-25
 draft: false
-author: "Lumi-Fuch"
+author: "Lumi-Fuchs"
 tags: ["Neuigkeiten", "News", "Ankündigung", "ElecKids", "Start", "Elektronik", "Programmieren", "Basteln"]
 categories: ["News"]
 featuredImagePreview: "header_willkommen.png"
