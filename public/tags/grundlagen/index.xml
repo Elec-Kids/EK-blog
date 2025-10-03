@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grundlagen on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/tags/grundlagen/</link>
+    <link>http://localhost:43007/EK-blog/tags/grundlagen/</link>
     <description>Recent content in Grundlagen on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/tags/grundlagen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:43007/EK-blog/tags/grundlagen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Das unsichtbare Supertalent: Was ist Elektrizität?</title>
-      <link>http://localhost:1313/EK-blog/posts/was-ist-elek/</link>
-      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/posts/was-ist-elek/</guid>
+      <link>http://localhost:43007/EK-blog/posts/was-ist-elek/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/posts/was-ist-elek/</guid>
       <description>Tauche ein in die faszinierende Welt der Elektrizität! Erfahre kinderleicht, was Strom ist, wie er fließt und warum er so wichtig für unsere Technik-Abenteuer ist.</description>
     </item>
   </channel>

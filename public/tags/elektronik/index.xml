@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elektronik on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/tags/elektronik/</link>
+    <link>http://localhost:43007/EK-blog/tags/elektronik/</link>
     <description>Recent content in Elektronik on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/tags/elektronik/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43007/EK-blog/tags/elektronik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?</title>
-      <link>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</link>
+      <link>http://localhost:43007/EK-blog/posts/was-ist-ein-mikrokontroller/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</guid>
+      <guid>http://localhost:43007/EK-blog/posts/was-ist-ein-mikrokontroller/</guid>
       <description>Entdecke, was ein Mikrocontroller ist, wie dieses kleine Computer-Gehirn funktioniert und wie du ihm beibringen kannst, deine Ideen umzusetzen!</description>
     </item>
     <item>
       <title>Willkommen bei ElecKids!</title>
-      <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
+      <link>http://localhost:43007/EK-blog/posts/willkommen-bei-eleckids/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
+      <guid>http://localhost:43007/EK-blog/posts/willkommen-bei-eleckids/</guid>
       <description>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!</description>
     </item>
   </channel>

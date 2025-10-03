@@ -2,164 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/tags/</link>
+    <link>http://localhost:43007/EK-blog/tags/</link>
     <description>Recent content in Tags on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43007/EK-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anleitung</title>
+      <link>http://localhost:43007/EK-blog/tags/anleitung/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/anleitung/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ElecKids</title>
-      <link>http://localhost:1313/EK-blog/tags/eleckids/</link>
+      <link>http://localhost:43007/EK-blog/tags/eleckids/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/eleckids/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/eleckids/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eltern</title>
+      <link>http://localhost:43007/EK-blog/tags/eltern/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/eltern/</guid>
       <description></description>
     </item>
     <item>
       <title>Elterninfo</title>
-      <link>http://localhost:1313/EK-blog/tags/elterninfo/</link>
+      <link>http://localhost:43007/EK-blog/tags/elterninfo/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/elterninfo/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/elterninfo/</guid>
       <description></description>
     </item>
     <item>
       <title>Hinter_den_Kulissen</title>
-      <link>http://localhost:1313/EK-blog/tags/hinter_den_kulissen/</link>
+      <link>http://localhost:43007/EK-blog/tags/hinter_den_kulissen/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/hinter_den_kulissen/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/hinter_den_kulissen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDE</title>
+      <link>http://localhost:43007/EK-blog/tags/ide/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/ide/</guid>
       <description></description>
     </item>
     <item>
       <title>KI</title>
-      <link>http://localhost:1313/EK-blog/tags/ki/</link>
+      <link>http://localhost:43007/EK-blog/tags/ki/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/ki/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/ki/</guid>
       <description></description>
     </item>
     <item>
-      <title>Qualität</title>
-      <link>http://localhost:1313/EK-blog/tags/qualit%C3%A4t/</link>
+      <title>MicroPython</title>
+      <link>http://localhost:43007/EK-blog/tags/micropython/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/qualit%C3%A4t/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Transparenz</title>
-      <link>http://localhost:1313/EK-blog/tags/transparenz/</link>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/transparenz/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bluetooth</title>
-      <link>http://localhost:1313/EK-blog/tags/bluetooth/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/bluetooth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entwicklerboards</title>
-      <link>http://localhost:1313/EK-blog/tags/entwicklerboards/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/entwicklerboards/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ESP8266</title>
-      <link>http://localhost:1313/EK-blog/tags/esp8266/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/esp8266/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mikrocontroller</title>
-      <link>http://localhost:1313/EK-blog/tags/mikrocontroller/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/mikrocontroller/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RP2040</title>
-      <link>http://localhost:1313/EK-blog/tags/rp2040/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/rp2040/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>http://localhost:1313/EK-blog/tags/tutorials/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/tutorials/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>WLAN</title>
-      <link>http://localhost:1313/EK-blog/tags/wlan/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/wlan/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>http://localhost:1313/EK-blog/tags/code/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Elektronik</title>
-      <link>http://localhost:1313/EK-blog/tags/elektronik/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/elektronik/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gehirn</title>
-      <link>http://localhost:1313/EK-blog/tags/gehirn/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/gehirn/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/micropython/</guid>
       <description></description>
     </item>
     <item>
       <title>Programmieren</title>
-      <link>http://localhost:1313/EK-blog/tags/programmieren/</link>
+      <link>http://localhost:43007/EK-blog/tags/programmieren/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/programmieren/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qualität</title>
+      <link>http://localhost:43007/EK-blog/tags/qualit%C3%A4t/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/qualit%C3%A4t/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:43007/EK-blog/tags/software/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thonny</title>
+      <link>http://localhost:43007/EK-blog/tags/thonny/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/thonny/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transparenz</title>
+      <link>http://localhost:43007/EK-blog/tags/transparenz/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/transparenz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bluetooth</title>
+      <link>http://localhost:43007/EK-blog/tags/bluetooth/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/bluetooth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entwicklerboards</title>
+      <link>http://localhost:43007/EK-blog/tags/entwicklerboards/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/entwicklerboards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESP8266</title>
+      <link>http://localhost:43007/EK-blog/tags/esp8266/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/esp8266/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mikrocontroller</title>
+      <link>http://localhost:43007/EK-blog/tags/mikrocontroller/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/mikrocontroller/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RP2040</title>
+      <link>http://localhost:43007/EK-blog/tags/rp2040/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/rp2040/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:43007/EK-blog/tags/tutorials/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WLAN</title>
+      <link>http://localhost:43007/EK-blog/tags/wlan/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/wlan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:43007/EK-blog/tags/code/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/programmieren/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elektronik</title>
+      <link>http://localhost:43007/EK-blog/tags/elektronik/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/elektronik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gehirn</title>
+      <link>http://localhost:43007/EK-blog/tags/gehirn/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/gehirn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elektrizität</title>
+      <link>http://localhost:43007/EK-blog/tags/elektrizit%C3%A4t/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/elektrizit%C3%A4t/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energie</title>
+      <link>http://localhost:43007/EK-blog/tags/energie/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/energie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grundlagen</title>
+      <link>http://localhost:43007/EK-blog/tags/grundlagen/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/grundlagen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physik</title>
+      <link>http://localhost:43007/EK-blog/tags/physik/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/physik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strom</title>
+      <link>http://localhost:43007/EK-blog/tags/strom/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/tags/strom/</guid>
       <description></description>
     </item>
     <item>
       <title>Ankündigung</title>
-      <link>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</link>
+      <link>http://localhost:43007/EK-blog/tags/ank%C3%BCndigung/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/ank%C3%BCndigung/</guid>
       <description></description>
     </item>
     <item>
       <title>Basteln</title>
-      <link>http://localhost:1313/EK-blog/tags/basteln/</link>
+      <link>http://localhost:43007/EK-blog/tags/basteln/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/basteln/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/basteln/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuigkeiten</title>
-      <link>http://localhost:1313/EK-blog/tags/neuigkeiten/</link>
+      <link>http://localhost:43007/EK-blog/tags/neuigkeiten/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/neuigkeiten/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/neuigkeiten/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
-      <link>http://localhost:1313/EK-blog/tags/news/</link>
+      <link>http://localhost:43007/EK-blog/tags/news/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/news/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Start</title>
-      <link>http://localhost:1313/EK-blog/tags/start/</link>
+      <link>http://localhost:43007/EK-blog/tags/start/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/start/</guid>
+      <guid>http://localhost:43007/EK-blog/tags/start/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elterninfo on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/categories/elterninfo/</link>
+    <link>http://localhost:43007/EK-blog/categories/elterninfo/</link>
     <description>Recent content in Elterninfo on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/categories/elterninfo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43007/EK-blog/categories/elterninfo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!</title>
+      <link>http://localhost:43007/EK-blog/posts/thonny-installation-manual/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43007/EK-blog/posts/thonny-installation-manual/</guid>
+      <description>Begleiten Sie Ihr Kind auf den ersten Schritten ins MicroPython-Programmieren! Diese Anleitung erklärt Eltern kinderleicht, wie sie die Thonny IDE installieren, einen Mikrocontroller verbinden und erste Programme hochladen.</description>
+    </item>
     <item>
       <title>Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!</title>
-      <link>http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/</link>
+      <link>http://localhost:43007/EK-blog/posts/inhalte-auf-eleckids/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/</guid>
+      <guid>http://localhost:43007/EK-blog/posts/inhalte-auf-eleckids/</guid>
       <description>Erfahre, wie wir bei ElecKids spannende und kindgerechte Inhalte erstellen – mit einer cleveren Mischung aus modernster KI-Technologie und der Expertise eines erfahrenen Ingenieurs. Qualität und Sicherheit stehen bei uns an erster Stelle!</description>
     </item>
   </channel>

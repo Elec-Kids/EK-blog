@@ -6,8 +6,22 @@
     <description>Recent content in Categories on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/EK-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lernen</title>
+      <link>http://localhost:1313/EK-blog/categories/lernen/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/lernen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motivation</title>
+      <link>http://localhost:1313/EK-blog/categories/motivation/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/motivation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Elterninfo</title>
       <link>http://localhost:1313/EK-blog/categories/elterninfo/</link>
@@ -23,9 +37,16 @@
       <description></description>
     </item>
     <item>
+      <title>Software</title>
+      <link>http://localhost:1313/EK-blog/categories/software/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Tutorials</title>
       <link>http://localhost:1313/EK-blog/categories/tutorials/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/categories/tutorials/</guid>
       <description></description>
     </item>

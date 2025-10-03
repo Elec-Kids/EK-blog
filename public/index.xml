@@ -3,9 +3,29 @@
         <title>ElecKids - Homepage</title>
         <link>http://localhost:1313/EK-blog/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Thu, 02 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/EK-blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Deine Superkräfte für die Zukunft: Welche Fähigkeiten lernst du mit Programmierung und Mikrocontrollern?</title>
+    <link>http://localhost:1313/EK-blog/posts/was-bringt-dir-das/</link>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/was-bringt-dir-das/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_superkraft.png" referrerpolicy="no-referrer">
+            </div>Entdecke die Superkräfte, die du beim Programmieren und Basteln mit Mikrocontrollern entwickelst! Lerne, wie du zum Problemlöser, Kreativkopf und Zukunftsgestalter wirst.]]></description>
+</item>
+<item>
+    <title>Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!</title>
+    <link>http://localhost:1313/EK-blog/posts/thonny-installation-manual/</link>
+    <pubDate>Thu, 02 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/thonny-installation-manual/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_thonny.png" referrerpolicy="no-referrer">
+            </div>Begleiten Sie Ihr Kind auf den ersten Schritten ins MicroPython-Programmieren! Diese Anleitung erklärt Eltern kinderleicht, wie sie die Thonny IDE installieren, einen Mikrocontroller verbinden und erste Programme hochladen.]]></description>
+</item>
+<item>
     <title>Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!</title>
     <link>http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/</link>
     <pubDate>Thu, 02 Oct 2025 00:00:00 &#43;0000</pubDate>
@@ -34,6 +54,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/EK-blog/header_micro.png" referrerpolicy="no-referrer">
             </div>Entdecke, was ein Mikrocontroller ist, wie dieses kleine Computer-Gehirn funktioniert und wie du ihm beibringen kannst, deine Ideen umzusetzen!]]></description>
+</item>
+<item>
+    <title>Das unsichtbare Supertalent: Was ist Elektrizität?</title>
+    <link>http://localhost:1313/EK-blog/posts/was-ist-elek/</link>
+    <pubDate>Sat, 27 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>ElecKids</author>
+    <guid>http://localhost:1313/EK-blog/posts/was-ist-elek/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_elek.png" referrerpolicy="no-referrer">
+            </div>Tauche ein in die faszinierende Welt der Elektrizität! Erfahre kinderleicht, was Strom ist, wie er fließt und warum er so wichtig für unsere Technik-Abenteuer ist.]]></description>
 </item>
 <item>
     <title>Willkommen bei ElecKids!</title>
