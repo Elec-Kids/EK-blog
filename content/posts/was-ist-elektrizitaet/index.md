@@ -2,7 +2,7 @@
 title: "Das unsichtbare Supertalent: Was ist Elektrizität?"
 date: 2025-09-27
 draft: false
-author: "ElecKids"
+author: "Lumi-Fuchs"
 tags: ["Elektrizität", "Strom", "Energie", "Grundlagen", "Physik", "Tutorials"]
 categories: ["Tutorials"]
 featuredImagePreview: "header_elek.png"
