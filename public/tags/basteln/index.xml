@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basteln on ElecKids - Homepage</title>
-    <link>http://localhost:43007/EK-blog/tags/basteln/</link>
+    <link>http://localhost:1313/EK-blog/tags/basteln/</link>
     <description>Recent content in Basteln on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:43007/EK-blog/tags/basteln/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/EK-blog/tags/basteln/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Willkommen bei ElecKids!</title>
-      <link>http://localhost:43007/EK-blog/posts/willkommen-bei-eleckids/</link>
+      <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43007/EK-blog/posts/willkommen-bei-eleckids/</guid>
+      <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
       <description>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!</description>
     </item>
   </channel>

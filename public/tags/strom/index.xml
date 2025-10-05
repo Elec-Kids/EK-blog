@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strom on ElecKids - Homepage</title>
-    <link>http://localhost:43007/EK-blog/tags/strom/</link>
+    <link>http://localhost:1313/EK-blog/tags/strom/</link>
     <description>Recent content in Strom on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:43007/EK-blog/tags/strom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/EK-blog/tags/strom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dein sicheres Bastel-Abenteuer: Vorsicht ist besser als Nachsicht!</title>
+      <link>http://localhost:1313/EK-blog/posts/sicherheit-mit-strom/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/posts/sicherheit-mit-strom/</guid>
+      <description>Sicherheit geht vor! Erfahre kinderleicht, wie du beim Basteln mit Mikrocontrollern und Elektronik sicher bleibst und warum unsere Projekte keine Gefahr darstellen – aber Vorsicht im Umgang mit Strom immer wichtig ist.</description>
+    </item>
     <item>
       <title>Das unsichtbare Supertalent: Was ist Elektrizität?</title>
-      <link>http://localhost:43007/EK-blog/posts/was-ist-elek/</link>
+      <link>http://localhost:1313/EK-blog/posts/was-ist-elektrizitaet/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43007/EK-blog/posts/was-ist-elek/</guid>
+      <guid>http://localhost:1313/EK-blog/posts/was-ist-elektrizitaet/</guid>
       <description>Tauche ein in die faszinierende Welt der Elektrizität! Erfahre kinderleicht, was Strom ist, wie er fließt und warum er so wichtig für unsere Technik-Abenteuer ist.</description>
     </item>
   </channel>

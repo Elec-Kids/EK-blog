@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mikrocontroller on ElecKids - Homepage</title>
-    <link>http://localhost:43007/EK-blog/tags/mikrocontroller/</link>
+    <link>http://localhost:1313/EK-blog/tags/mikrocontroller/</link>
     <description>Recent content in Mikrocontroller on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:43007/EK-blog/tags/mikrocontroller/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/EK-blog/tags/mikrocontroller/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dein sicheres Bastel-Abenteuer: Vorsicht ist besser als Nachsicht!</title>
+      <link>http://localhost:1313/EK-blog/posts/sicherheit-mit-strom/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/posts/sicherheit-mit-strom/</guid>
+      <description>Sicherheit geht vor! Erfahre kinderleicht, wie du beim Basteln mit Mikrocontrollern und Elektronik sicher bleibst und warum unsere Projekte keine Gefahr darstellen – aber Vorsicht im Umgang mit Strom immer wichtig ist.</description>
+    </item>
+    <item>
+      <title>Deine Superkräfte für die Zukunft: Welche Fähigkeiten lernst du mit Programmierung und Mikrocontrollern?</title>
+      <link>http://localhost:1313/EK-blog/posts/was-bringt-dir-das/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/posts/was-bringt-dir-das/</guid>
+      <description>Entdecke die Superkräfte, die du beim Programmieren und Basteln mit Mikrocontrollern entwickelst! Lerne, wie du zum Problemlöser, Kreativkopf und Zukunftsgestalter wirst.</description>
+    </item>
     <item>
       <title>Die Superhelden-Teams deiner Projekte: ESP8266 und Raspberry Pi Pico!</title>
-      <link>http://localhost:43007/EK-blog/posts/superhelden-deiner-projekte/</link>
+      <link>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43007/EK-blog/posts/superhelden-deiner-projekte/</guid>
+      <guid>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</guid>
       <description>Lerne die zwei coolsten Entwicklerboards kennen: das ESP8266-Board mit Superkräften für WLAN und das Raspberry Pi Pico Board mit dem blitzschnellen RP2040-Chip. Finde heraus, welches Team perfekt für dein nächstes Projekt ist!</description>
     </item>
     <item>
       <title>Dein Mini-Gehirn für coole Projekte: Was ist ein Mikrocontroller?</title>
-      <link>http://localhost:43007/EK-blog/posts/was-ist-ein-mikrokontroller/</link>
+      <link>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43007/EK-blog/posts/was-ist-ein-mikrokontroller/</guid>
+      <guid>http://localhost:1313/EK-blog/posts/was-ist-ein-mikrokontroller/</guid>
       <description>Entdecke, was ein Mikrocontroller ist, wie dieses kleine Computer-Gehirn funktioniert und wie du ihm beibringen kannst, deine Ideen umzusetzen!</description>
     </item>
   </channel>
