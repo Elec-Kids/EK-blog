@@ -3,9 +3,19 @@
         <title>ElecKids - Homepage</title>
         <link>http://localhost:1313/EK-blog/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Mon, 06 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Tue, 07 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/EK-blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!</title>
+    <link>http://localhost:1313/EK-blog/posts/python-einfuehrung/</link>
+    <pubDate>Tue, 07 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/python-einfuehrung/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/EK-blog/header_python.png" referrerpolicy="no-referrer">
+            </div>Lerne Python kennen, die super-einfache Programmiersprache, mit der du schon am Computer coole Dinge zaubern kannst – ganz ohne Elektronik!]]></description>
+</item>
+<item>
     <title>Dein Schatz im Müll: Kostenloses Material für deine Projekte!</title>
     <link>http://localhost:1313/EK-blog/posts/recycling/</link>
     <pubDate>Mon, 06 Oct 2025 00:00:00 &#43;0000</pubDate>
@@ -94,16 +104,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/EK-blog/header_elek.png" referrerpolicy="no-referrer">
             </div>Tauche ein in die faszinierende Welt der Elektrizität! Erfahre kinderleicht, was Strom ist, wie er fließt und warum er so wichtig für unsere Technik-Abenteuer ist.]]></description>
-</item>
-<item>
-    <title>Willkommen bei ElecKids!</title>
-    <link>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</link>
-    <pubDate>Thu, 25 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>Lumi-Fuchs</author>
-    <guid>http://localhost:1313/EK-blog/posts/willkommen-bei-eleckids/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/EK-blog/header_willkommen.png" referrerpolicy="no-referrer">
-            </div>Tauche ein in die spannende Welt der Elektronik! ElecKids ist deine neue Plattform für coole Projekte, einfaches Programmieren und jede Menge Bastelspaß mit dem ESP8266 und Raspberry Pi Pico. Entdecke, baue und lerne mit uns!]]></description>
 </item>
 </channel>
 </rss>
