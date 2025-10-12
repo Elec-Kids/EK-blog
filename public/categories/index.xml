@@ -6,20 +6,34 @@
     <description>Recent content in Categories on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/EK-blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sicherheit</title>
-      <link>http://localhost:1313/EK-blog/categories/sicherheit/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/categories/sicherheit/</guid>
+      <title>Nachhaltigkeit</title>
+      <link>http://localhost:1313/EK-blog/categories/nachhaltigkeit/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/nachhaltigkeit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tipps</title>
+      <link>http://localhost:1313/EK-blog/categories/tipps/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/tipps/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
       <link>http://localhost:1313/EK-blog/categories/tutorials/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sicherheit</title>
+      <link>http://localhost:1313/EK-blog/categories/sicherheit/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/categories/sicherheit/</guid>
       <description></description>
     </item>
     <item>

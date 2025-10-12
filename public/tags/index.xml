@@ -6,20 +6,104 @@
     <description>Recent content in Tags on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/EK-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basteln</title>
+      <link>http://localhost:1313/EK-blog/tags/basteln/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/basteln/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kostenlos</title>
+      <link>http://localhost:1313/EK-blog/tags/kostenlos/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/kostenlos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material</title>
+      <link>http://localhost:1313/EK-blog/tags/material/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/material/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nachhaltigkeit</title>
+      <link>http://localhost:1313/EK-blog/tags/nachhaltigkeit/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/nachhaltigkeit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recycling</title>
+      <link>http://localhost:1313/EK-blog/tags/recycling/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/recycling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tipps</title>
+      <link>http://localhost:1313/EK-blog/tags/tipps/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/tipps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Upcycling</title>
+      <link>http://localhost:1313/EK-blog/tags/upcycling/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/upcycling/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Elektronik</title>
       <link>http://localhost:1313/EK-blog/tags/elektronik/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/tags/elektronik/</guid>
       <description></description>
     </item>
     <item>
       <title>Grundlagen</title>
       <link>http://localhost:1313/EK-blog/tags/grundlagen/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/tags/grundlagen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ohm</title>
+      <link>http://localhost:1313/EK-blog/tags/ohm/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/ohm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spannung</title>
+      <link>http://localhost:1313/EK-blog/tags/spannung/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/spannung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stromstärke</title>
+      <link>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/EK-blog/tags/tutorials/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Widerstand</title>
+      <link>http://localhost:1313/EK-blog/tags/widerstand/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/EK-blog/tags/widerstand/</guid>
       <description></description>
     </item>
     <item>
@@ -30,24 +114,10 @@
       <description></description>
     </item>
     <item>
-      <title>Ohm</title>
-      <link>http://localhost:1313/EK-blog/tags/ohm/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/ohm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Sicherheit</title>
       <link>http://localhost:1313/EK-blog/tags/sicherheit/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/tags/sicherheit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spannung</title>
-      <link>http://localhost:1313/EK-blog/tags/spannung/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/spannung/</guid>
       <description></description>
     </item>
     <item>
@@ -58,31 +128,10 @@
       <description></description>
     </item>
     <item>
-      <title>Stromstärke</title>
-      <link>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>http://localhost:1313/EK-blog/tags/tutorials/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/tutorials/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Vorsicht</title>
       <link>http://localhost:1313/EK-blog/tags/vorsicht/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/tags/vorsicht/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Widerstand</title>
-      <link>http://localhost:1313/EK-blog/tags/widerstand/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/widerstand/</guid>
       <description></description>
     </item>
     <item>
@@ -286,13 +335,6 @@
       <link>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Basteln</title>
-      <link>http://localhost:1313/EK-blog/tags/basteln/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/tags/basteln/</guid>
       <description></description>
     </item>
     <item>

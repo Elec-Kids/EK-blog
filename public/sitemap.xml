@@ -2,25 +2,35 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/EK-blog/categories/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/posts/u-r-a/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/basteln/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/categories/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/posts/recycling/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/kostenlos/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/material/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/categories/nachhaltigkeit/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/nachhaltigkeit/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/posts/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/recycling/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/categories/tipps/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/tipps/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/upcycling/</loc><lastmod>2025-10-06T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/posts/u-r-a/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/elektronik/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/grundlagen/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/ohm/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/spannung/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/categories/tutorials/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/tutorials/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/EK-blog/tags/widerstand/</loc><lastmod>2025-10-05T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/posts/sicherheit-mit-strom/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/elektronik/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/grundlagen/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/mikrocontroller/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/ohm/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/posts/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/categories/sicherheit/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/sicherheit/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/spannung/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/strom/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/stromst%C3%A4rke/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/categories/tutorials/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/tutorials/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/vorsicht/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/widerstand/</loc><lastmod>2025-10-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/posts/was-bringt-dir-das/</loc><lastmod>2025-10-03T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/f%C3%A4higkeiten/</loc><lastmod>2025-10-03T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/kreativit%C3%A4t/</loc><lastmod>2025-10-03T00:00:00&#43;00:00</lastmod></url><url>
@@ -61,7 +71,6 @@
             <loc>http://localhost:1313/EK-blog/tags/energie/</loc><lastmod>2025-09-27T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/physik/</loc><lastmod>2025-09-27T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/ank%C3%BCndigung/</loc><lastmod>2025-09-25T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:1313/EK-blog/tags/basteln/</loc><lastmod>2025-09-25T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/neuigkeiten/</loc><lastmod>2025-09-25T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/news/</loc><lastmod>2025-09-25T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://localhost:1313/EK-blog/tags/start/</loc><lastmod>2025-09-25T00:00:00&#43;00:00</lastmod></url><url>

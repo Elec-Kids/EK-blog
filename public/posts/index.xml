@@ -3,7 +3,15 @@
         <title>Alle Artikel - ElecKids - Homepage</title>
         <link>http://localhost:1313/EK-blog/posts/</link>
         <description>Alle Artikel | ElecKids - Homepage</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sun, 05 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/EK-blog/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Mon, 06 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/EK-blog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Dein Schatz im Müll: Kostenloses Material für deine Projekte!</title>
+    <link>http://localhost:1313/EK-blog/posts/recycling/</link>
+    <pubDate>Mon, 06 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Lumi-Fuchs</author>
+    <guid>http://localhost:1313/EK-blog/posts/recycling/</guid>
+    <description><![CDATA[Entdecke, wie du aus alten Dingen neue Schätze für deine Elektronik-Projekte machst! Lerne, wie du Kabel, LEDs und andere Bauteile aus kaputten Geräten rettest und ihnen ein zweites Leben schenkst.]]></description>
+</item>
+<item>
     <title>Das Geheimnis des Stroms: Spannung, Widerstand und Stromstärke einfach erklärt!</title>
     <link>http://localhost:1313/EK-blog/posts/u-r-a/</link>
     <pubDate>Sun, 05 Oct 2025 00:00:00 &#43;0000</pubDate>
