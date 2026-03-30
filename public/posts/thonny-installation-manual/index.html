@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head><script src="/EK-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=EK-blog/livereload" data-no-instant defer></script>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt! - ElecKids - Homepage</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="http://localhost:1313/EK-blog/posts/thonny-installation-manual/">
+        <title>Thonny für Eltern: Einstieg in Python und MicroPython - ElecKids - Homepage</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/">
   <meta property="og:site_name" content="ElecKids - Homepage">
-  <meta property="og:title" content="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!">
-  <meta property="og:description" content="Begleiten Sie Ihr Kind auf den ersten Schritten ins MicroPython-Programmieren! Diese Anleitung erklärt Eltern kinderleicht, wie sie die Thonny IDE installieren, einen Mikrocontroller verbinden und erste Programme hochladen.">
+  <meta property="og:title" content="Thonny für Eltern: Einstieg in Python und MicroPython">
+  <meta property="og:description" content="Thonny ist eine einfache Entwicklungsumgebung für Python und MicroPython. Diese Anleitung zeigt Eltern, wie sie Thonny installieren, erste Programme starten und einen Mikrocontroller verbinden.">
   <meta property="og:locale" content="de">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-02T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-10-02T00:00:00+00:00">
     <meta property="article:tag" content="Thonny">
-    <meta property="article:tag" content="IDE">
+    <meta property="article:tag" content="Python">
     <meta property="article:tag" content="MicroPython">
-    <meta property="article:tag" content="Programmieren">
     <meta property="article:tag" content="Eltern">
-    <meta property="article:tag" content="Anleitung">
+    <meta property="article:tag" content="Software">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!">
-  <meta name="twitter:description" content="Begleiten Sie Ihr Kind auf den ersten Schritten ins MicroPython-Programmieren! Diese Anleitung erklärt Eltern kinderleicht, wie sie die Thonny IDE installieren, einen Mikrocontroller verbinden und erste Programme hochladen.">
+  <meta name="twitter:title" content="Thonny für Eltern: Einstieg in Python und MicroPython">
+  <meta name="twitter:description" content="Thonny ist eine einfache Entwicklungsumgebung für Python und MicroPython. Diese Anleitung zeigt Eltern, wie sie Thonny installieren, erste Programme starten und einen Mikrocontroller verbinden.">
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" /><link rel="prev" href="http://localhost:1313/EK-blog/posts/inhalte-auf-eleckids/" /><link rel="next" href="http://localhost:1313/EK-blog/posts/was-bringt-dir-das/" /><link rel="stylesheet" href="/EK-blog/css/style.min.css"><link rel="preload" href="/EK-blog/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/EK-blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/EK-blog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/EK-blog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" /><link rel="prev" href="https://elec-kids.github.io/EK-blog/posts/inhalte-auf-eleckids/" /><link rel="next" href="https://elec-kids.github.io/EK-blog/posts/was-bringt-dir-das/" /><link rel="stylesheet" href="/EK-blog/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!",
+        "headline": "Thonny für Eltern: Einstieg in Python und MicroPython",
         "inLanguage": "de",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/EK-blog\/posts\/thonny-installation-manual\/"
-        },"genre": "posts","keywords": "Thonny, IDE, MicroPython, Programmieren, Eltern, Anleitung, Software","wordcount":  1253 ,
-        "url": "http:\/\/localhost:1313\/EK-blog\/posts\/thonny-installation-manual\/","datePublished": "2025-10-02T00:00:00+00:00","dateModified": "2025-10-02T00:00:00+00:00","publisher": {
+            "@id": "https:\/\/elec-kids.github.io\/EK-blog\/posts\/thonny-installation-manual\/"
+        },"genre": "posts","keywords": "Thonny, Python, MicroPython, Eltern, Software","wordcount":  608 ,
+        "url": "https:\/\/elec-kids.github.io\/EK-blog\/posts\/thonny-installation-manual\/","datePublished": "2025-10-02T00:00:00+00:00","dateModified": "2025-10-02T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
-                "name": "Lumi-Fuchs"
+                "name": "ElecKids"
             },"description": ""
     }
     </script></head>
@@ -77,10 +76,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Inhalt</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/EK-blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Lumi-Fuchs</a></span>&nbsp;<span class="post-category">Enthalten in <a href="/EK-blog/categories/software/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Software</a>&nbsp;<a href="/EK-blog/categories/elterninfo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Elterninfo</a>&nbsp;<a href="/EK-blog/categories/tutorials/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tutorials</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-02">2025-10-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1253 Wörter&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 Minuten&nbsp;</div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Thonny für Eltern: Einstieg in Python und MicroPython</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/EK-blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>ElecKids</a></span>&nbsp;<span class="post-category">Enthalten in <a href="/EK-blog/categories/software/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Software</a>&nbsp;<a href="/EK-blog/categories/elterninfo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Elterninfo</a>&nbsp;<a href="/EK-blog/categories/tutorials/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tutorials</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-02">2025-10-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;608 Wörter&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 Minuten&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/EK-blog/svg/loading.min.svg"
@@ -95,141 +94,108 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#was-ist-thonny-ide--die-freundliche-programmier-werkstatt-">Was ist Thonny IDE? – Die freundliche Programmier-Werkstatt! 🛠️</a></li>
-    <li><a href="#schritt-1-thonny-auf-dem-computer-installieren-">Schritt 1: Thonny auf dem Computer installieren 🖥️</a>
-      <ul>
-        <li><a href="#15-thonny-auch-für-lokale-python-programmierung-nutzen-">1.5 Thonny auch für lokale Python-Programmierung nutzen 🐍</a></li>
-      </ul>
-    </li>
-    <li><a href="#schritt-2-den-mikrocontroller-mit-thonny-verbinden-">Schritt 2: Den Mikrocontroller mit Thonny verbinden 🔌</a></li>
-    <li><a href="#schritt-3-das-erste-programm-hochladen-und-starten-">Schritt 3: Das erste Programm hochladen und starten 🚀</a></li>
-    <li><a href="#tipps-zur-unterstützung-eurer-kinder-">Tipps zur Unterstützung eurer Kinder 🤝</a></li>
+    <li><a href="#was-ist-thonny">Was ist Thonny?</a></li>
+    <li><a href="#schritt-1-thonny-installieren">Schritt 1: Thonny installieren</a></li>
+    <li><a href="#schritt-2-python-zuerst-lokal-ausprobieren">Schritt 2: Python zuerst lokal ausprobieren</a></li>
+    <li><a href="#warum-dieser-zwischenschritt-sinnvoll-ist">Warum dieser Zwischenschritt sinnvoll ist</a></li>
+    <li><a href="#schritt-3-einen-mikrocontroller-verbinden">Schritt 3: Einen Mikrocontroller verbinden</a></li>
+    <li><a href="#schritt-4-thonny-auf-das-board-einstellen">Schritt 4: Thonny auf das Board einstellen</a></li>
+    <li><a href="#schritt-5-ein-erstes-micropython-programm-testen">Schritt 5: Ein erstes MicroPython-Programm testen</a></li>
+    <li><a href="#typische-probleme-am-anfang">Typische Probleme am Anfang</a></li>
+    <li><a href="#wie-eltern-sinnvoll-unterstützen-können">Wie Eltern sinnvoll unterstützen können</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="dein-start-ins-micropython-abenteuer-thonny-ide-für-eltern-erklärt-">Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt! 🚀💻</h1>
-<p>Hallo liebe Eltern und Unterstützer unserer jungen Technik-Entdecker! 🦊 Euer Lumi-Fuchs ist heute hier, um euch eine super-praktische Software vorzustellen, die den Einstieg ins Programmieren mit Mikrocontrollern kinderleicht macht: die <strong>Thonny IDE</strong>! ✨</p>
-<p>Wenn eure Kinder mit dem ESP8266 oder Raspberry Pi Pico in die Welt des MicroPython eintauchen, ist Thonny (sprich: Ton-nie) das perfekte Werkzeug. Es ist wie ein freundlicher Übersetzer und eine Werkstatt in einem, die es euch und euren Kindern ermöglicht, schnell und unkompliziert eigene Ideen umzusetzen. Diese Anleitung hilft euch, Thonny einzurichten, damit ihr eure Kinder optimal unterstützen könnt.</p>
-<h2 id="was-ist-thonny-ide--die-freundliche-programmier-werkstatt-">Was ist Thonny IDE? – Die freundliche Programmier-Werkstatt! 🛠️</h2>
-<p><strong>IDE</strong> steht für &ldquo;Integrated Development Environment&rdquo;, also eine &ldquo;integrierte Entwicklungsumgebung&rdquo;. Das ist ein schickes Wort für ein Programm, das alles Wichtige enthält, um Code zu schreiben, zu testen und auf einen Mikrocontroller zu übertragen. Thonny ist speziell dafür gemacht, Python und MicroPython zu lernen und zu nutzen. Es ist sehr übersichtlich und einfach zu bedienen, was es ideal für Anfänger macht.</p>
-<p><strong>Warum Thonny so toll ist:</strong></p>
+            </div><div class="content" id="content"><h1 id="thonny-für-eltern-einstieg-in-python-und-micropython">Thonny für Eltern: Einstieg in Python und MicroPython</h1>
+<p>Wenn Kinder mit Python oder MicroPython anfangen, ist eine übersichtliche Arbeitsumgebung sehr hilfreich. <strong>Thonny</strong> ist dafür gut geeignet: Das Programm ist einfach aufgebaut, läuft auf den gängigen Betriebssystemen und reicht für die ersten Schritte am Computer und mit Mikrocontrollern völlig aus.</p>
+<p>Diese Anleitung richtet sich an Eltern und zeigt den typischen Einstieg.</p>
+<h2 id="was-ist-thonny">Was ist Thonny?</h2>
+<p>Thonny ist eine Entwicklungsumgebung für Python. Damit kann man:</p>
 <ul>
-<li><strong>Einfache Installation:</strong> Schnell auf dem Computer eingerichtet.</li>
-<li><strong>Übersichtliche Oberfläche:</strong> Keine komplizierten Menüs, alles Wichtige ist sofort sichtbar.</li>
-<li><strong>MicroPython-Unterstützung:</strong> Erkennt Mikrocontroller automatisch und kann Code direkt hochladen.</li>
-<li><strong>Fehler finden leicht gemacht:</strong> Hilft dabei, Fehler im Code zu entdecken und zu verstehen.</li>
+<li>Python-Code schreiben</li>
+<li>Programme direkt starten</li>
+<li>Ausgaben und Fehlermeldungen sehen</li>
+<li>bei MicroPython den Code auf einen Mikrocontroller übertragen</li>
 </ul>
-<h2 id="schritt-1-thonny-auf-dem-computer-installieren-">Schritt 1: Thonny auf dem Computer installieren 🖥️</h2>
-<p>Die Installation von Thonny ist kinderleicht und funktioniert auf Windows, macOS und Linux:</p>
+<p>Für Kinder ist vor allem hilfreich, dass alles in einem Fenster passiert und kein Terminal nötig ist.</p>
+<h2 id="schritt-1-thonny-installieren">Schritt 1: Thonny installieren</h2>
 <ol>
-<li><strong>Herunterladen:</strong> Besuchen Sie die offizielle Thonny-Webseite: <a href="https://thonny.org/" target="_blank" rel="noopener noreffer ">https://thonny.org/</a></li>
-<li><strong>Installationsdatei wählen:</strong> Laden Sie die passende Version für Ihr Betriebssystem herunter (z.B. &ldquo;Windows installer&rdquo; oder &ldquo;macOS&rdquo;).</li>
-<li><strong>Installation starten:</strong> Öffnen Sie die heruntergeladene Datei und folgen Sie den Anweisungen auf dem Bildschirm. Meistens reicht es, einfach auf &ldquo;Weiter&rdquo; oder &ldquo;Installieren&rdquo; zu klicken.</li>
-<li><strong>Thonny starten:</strong> Nach der Installation finden Sie Thonny im Startmenü oder in Ihren Anwendungen. Öffnen Sie es!</li>
+<li>Öffnen Sie die offizielle Webseite: <a href="https://thonny.org/" target="_blank" rel="noopener noreffer ">https://thonny.org/</a></li>
+<li>Laden Sie die passende Version für Windows, macOS oder Linux herunter.</li>
+<li>Starten Sie die Installation und folgen Sie den normalen Schritten.</li>
+<li>Öffnen Sie Thonny nach der Installation.</li>
 </ol>
-<h3 id="15-thonny-auch-für-lokale-python-programmierung-nutzen-">1.5 Thonny auch für lokale Python-Programmierung nutzen 🐍</h3>
-<p>Bevor wir mit dem Mikrocontroller arbeiten, können Kinder Thonny auch als normale <strong>Python-Umgebung auf dem eigenen Computer</strong> nutzen. Das hat gleich mehrere Vorteile:</p>
-<ul>
-<li><strong>Kein Terminal nötig:</strong> Kinder müssen keine komplizierten Befehle in der Eingabeaufforderung (CMD/Terminal) eintippen. Alles läuft direkt in Thonny.</li>
-<li><strong>Direktes Ausprobieren:</strong> Erste Programme lassen sich sofort starten und die Ergebnisse erscheinen unten in der sogenannten <strong>Shell</strong>.</li>
-<li><strong>Grundlagen üben:</strong> Kinder können spielerisch die wichtigsten Elemente von Python (wie Ausgaben, Schleifen, Variablen) lernen, bevor sie mit echter Hardware experimentieren.</li>
-</ul>
-<h4 id="so-funktioniert-es">So funktioniert es:</h4>
-<ol>
-<li>
-<p><strong>Neues Programm anlegen:</strong>
-Öffnen Sie Thonny und klicken Sie auf <strong>File → New</strong> (Datei → Neu). Im großen oberen Fenster erscheint ein leeres Dokument.</p>
-</li>
-<li>
-<p><strong>Erste Zeilen Code schreiben:</strong>
-Geben Sie z. B. den folgenden Code ein:</p>
+<h2 id="schritt-2-python-zuerst-lokal-ausprobieren">Schritt 2: Python zuerst lokal ausprobieren</h2>
+<p>Bevor ein Mikrocontroller angeschlossen wird, lohnt sich ein erster Test direkt am Computer. So kann Ihr Kind sehen, wie Code geschrieben und gestartet wird, ohne sich gleichzeitig mit Kabeln oder Hardware zu beschäftigen.</p>
+<p>Öffnen Sie in Thonny ein neues Dokument und tragen Sie zum Beispiel diesen Code ein:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, ich bin dein erstes Python-Programm!&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Runde:&#34;</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Programm starten:</strong>
-Klicken Sie auf den <strong>grünen Play-Button</strong> (Pfeil-Symbol oben).
-Im unteren Bereich von Thonny (der Shell) erscheint sofort die Ausgabe.</p>
-<p>Ergebnis könnte so aussehen:</p>
-<pre tabindex="0"><code>Hallo, ich bin dein erstes Python-Programm!
-Runde: 1
-Runde: 2
-Runde: 3
-Runde: 4
-Runde: 5
-</code></pre></li>
-<li>
-<p><strong>Speichern:</strong>
-Speichern Sie das Programm wie gewohnt über <strong>File → Save as&hellip;</strong>. Wenn Sie es auf dem PC speichern, ist es ein normales Python-Programm und läuft immer wieder, wenn Sie es öffnen und starten.</p>
-</li>
-</ol>
-<h4 id="warum-das-sinnvoll-ist">Warum das sinnvoll ist:</h4>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Runde:&#34;</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span></code></pre></div><p>Starten Sie das Programm mit dem grünen Play-Button. Die Ausgabe erscheint unten in der Shell.</p>
+<p>Das reicht für einen ersten Test schon aus. Danach kann die Datei ganz normal über <strong>File -&gt; Save as&hellip;</strong> gespeichert werden.</p>
+<h2 id="warum-dieser-zwischenschritt-sinnvoll-ist">Warum dieser Zwischenschritt sinnvoll ist</h2>
+<p>Der lokale Einstieg hat ein paar klare Vorteile:</p>
 <ul>
-<li>Kinder können in einer sicheren Umgebung erste Erfolgserlebnisse haben.</li>
-<li>Sie lernen, wie Programme Schritt für Schritt aufgebaut sind.</li>
-<li>Sie müssen sich noch nicht mit Verkabelung oder Treibern beschäftigen.</li>
+<li>Kinder lernen zuerst die Grundidee von Programmcode.</li>
+<li>Die Umgebung bleibt übersichtlich.</li>
+<li>Fehler lassen sich leichter einordnen.</li>
+<li>Es gibt noch keine zusätzliche Komplexität durch Board, Treiber oder Verkabelung.</li>
 </ul>
-<p>Erst wenn die Grundlagen sitzen, wechseln wir zum Mikrocontroller (ab Schritt 2). Dann wissen die Kinder schon, wie man Code schreibt und startet – und sehen ihre Programme direkt in der Hardware lebendig werden.</p>
-<h2 id="schritt-2-den-mikrocontroller-mit-thonny-verbinden-">Schritt 2: Den Mikrocontroller mit Thonny verbinden 🔌</h2>
-<p>Jetzt wird es spannend! Wir verbinden den Mikrocontroller (z.B. ESP8266 oder Raspberry Pi Pico) mit dem Computer und sagen Thonny, dass es mit ihm sprechen soll.</p>
-<ol>
-<li><strong>Mikrocontroller vorbereiten:</strong> Stellen Sie sicher, dass auf dem Mikrocontroller bereits MicroPython installiert ist. Falls nicht, gibt es dafür separate Anleitungen (z.B. auf der MicroPython-Webseite oder in unseren ElecKids-Tutorials).</li>
-<li><strong>Verbinden per USB-Kabel:</strong> Schließen Sie den Mikrocontroller mit einem USB-Kabel an Ihren Computer an. Achten Sie darauf, ein Datenkabel zu verwenden, nicht nur ein Ladekabel!</li>
-<li><strong>Treiber installieren (falls nötig):</strong> Manchmal muss der Computer einen speziellen Treiber installieren, damit er den Mikrocontroller erkennt. Bei Raspberry Pi Pico ist das meistens nicht nötig. Bei ESP8266-Boards (wie NodeMCU oder Wemos D1 Mini) kann es sein, dass ein Treiber für den CH340- oder CP210x-Chip benötigt wird. Eine kurze Suche nach &ldquo;CH340 Treiber Windows&rdquo; oder &ldquo;CP210x Treiber Mac&rdquo; hilft hier schnell weiter.</li>
-<li><strong>Thonny einstellen:</strong>
+<h2 id="schritt-3-einen-mikrocontroller-verbinden">Schritt 3: Einen Mikrocontroller verbinden</h2>
+<p>Wenn die ersten Python-Beispiele am Computer funktionieren, kann Thonny auch mit einem MicroPython-Board verwendet werden.</p>
+<p>Vor dem Verbinden sollten Sie prüfen:</p>
 <ul>
-<li>Gehen Sie in Thonny auf <strong>&ldquo;Tools&rdquo;</strong> (Werkzeuge) und dann auf <strong>&ldquo;Options&hellip;&rdquo;</strong> (Optionen&hellip;).</li>
-<li>Wählen Sie den Reiter <strong>&ldquo;Interpreter&rdquo;</strong>.</li>
-<li>Wählen Sie im Dropdown-Menü <strong>&ldquo;MicroPython (ESP32/ESP8266)&rdquo;</strong> oder <strong>&ldquo;MicroPython (Raspberry Pi Pico)&rdquo;</strong> aus, je nachdem, welchen Mikrocontroller Ihr Kind verwendet.</li>
-<li>Bei <strong>&ldquo;Port&rdquo;</strong> wählen Sie den USB-Anschluss aus, an dem der Mikrocontroller angeschlossen ist. Das ist oft ein Eintrag wie <code>COMx</code> (Windows) oder <code>/dev/tty.usbserial-xxxx</code> (macOS/Linux). Wenn Sie unsicher sind, probieren Sie die verschiedenen Optionen aus oder ziehen Sie das Kabel ab und stecken es wieder ein – der richtige Port verschwindet dann kurz und taucht wieder auf.</li>
-<li>Klicken Sie auf <strong>&ldquo;OK&rdquo;</strong>.</li>
+<li>Ist auf dem Board bereits <strong>MicroPython</strong> installiert?</li>
+<li>Wird ein <strong>Datenkabel</strong> verwendet und nicht nur ein Ladekabel?</li>
+<li>Braucht das Board unter Windows oder macOS eventuell einen Treiber?</li>
+</ul>
+<p>Beim Raspberry Pi Pico ist meist kein zusätzlicher Treiber nötig. Bei manchen ESP8266-Boards wird ein Treiber für Chips wie <strong>CH340</strong> oder <strong>CP210x</strong> benötigt.</p>
+<h2 id="schritt-4-thonny-auf-das-board-einstellen">Schritt 4: Thonny auf das Board einstellen</h2>
+<ol>
+<li>Öffnen Sie in Thonny <strong>Tools -&gt; Options&hellip;</strong></li>
+<li>Wechseln Sie zum Reiter <strong>Interpreter</strong></li>
+<li>Wählen Sie den passenden Interpreter aus:
+<ul>
+<li><strong>MicroPython (Raspberry Pi Pico)</strong></li>
+<li>oder <strong>MicroPython (ESP32/ESP8266)</strong></li>
 </ul>
 </li>
+<li>Wählen Sie darunter den richtigen Port aus.</li>
+<li>Bestätigen Sie mit <strong>OK</strong>.</li>
 </ol>
-<p>Wenn alles geklappt hat, sollte im unteren Bereich von Thonny (der &ldquo;Shell&rdquo;) eine Meldung erscheinen, die anzeigt, dass Thonny mit dem Mikrocontroller verbunden ist (z.B. <code>MicroPython v1.x.x on 20xx-xx-xx; ESP module with ESP8266</code> oder <code>MicroPython v1.x.x on 20xx-xx-xx; Raspberry Pi Pico</code>).</p>
-<h2 id="schritt-3-das-erste-programm-hochladen-und-starten-">Schritt 3: Das erste Programm hochladen und starten 🚀</h2>
-<p>Jetzt kann das Programmieren losgehen! Wir schreiben ein ganz einfaches Programm, das eine LED blinken lässt.</p>
-<ol>
-<li>
-<p><strong>Code schreiben:</strong> Im oberen, großen Bereich von Thonny (dem Editor) schreiben Sie den Code. Hier ein Beispiel für eine LED, die an Pin 2 angeschlossen ist (oft bei ESP8266-Boards, beim Pico wäre es z.B. Pin 25 für die eingebaute LED):</p>
+<p>Wenn alles passt, erscheint unten in der Shell eine Meldung des angeschlossenen Boards.</p>
+<h2 id="schritt-5-ein-erstes-micropython-programm-testen">Schritt 5: Ein erstes MicroPython-Programm testen</h2>
+<p>Für einen einfachen Funktionstest reicht ein Blinkprogramm. Das folgende Beispiel nutzt die eingebaute LED des Raspberry Pi Pico:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Definiere den Pin, an den die LED angeschlossen ist</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># (Beim ESP8266 ist D4 oft Pin 2, beim Pico ist Pin 25 die eingebaute LED)</span>
-</span></span><span class="line"><span class="cl"><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span> <span class="c1"># Beispiel für ESP8266 mit LED an D4</span>
+</span></span><span class="line"><span class="cl"><span class="n">led</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">led</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># LED einschalten (HIGH)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1"># 0.5 Sekunden warten</span>
-</span></span><span class="line"><span class="cl">    <span class="n">led</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>  <span class="c1"># LED ausschalten (LOW)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1"># 0.5 Sekunden warten</span>
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Speichern auf dem Mikrocontroller:</strong></p>
+</span></span><span class="line"><span class="cl">    <span class="n">led</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">led</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</span></span></code></pre></div><p>Wichtig: Dieses Beispiel ist für den <strong>Raspberry Pi Pico</strong> gedacht. Bei anderen Boards kann der LED-Pin anders sein.</p>
+<p>Speichern Sie die Datei über <strong>File -&gt; Save as&hellip;</strong> auf dem <strong>MicroPython device</strong>, zum Beispiel als <code>main.py</code>. Danach startet das Programm meist direkt oder nach einem Neustart des Boards.</p>
+<h2 id="typische-probleme-am-anfang">Typische Probleme am Anfang</h2>
+<p>Wenn nichts funktioniert, liegt es oft an einem dieser Punkte:</p>
 <ul>
-<li>Klicken Sie auf das <strong>Speichern-Symbol</strong> (Diskette) oder gehen Sie auf &ldquo;File&rdquo; (Datei) -&gt; &ldquo;Save as&hellip;&rdquo; (Speichern unter&hellip;).</li>
-<li>Wählen Sie <strong>&ldquo;MicroPython device&rdquo;</strong> (MicroPython-Gerät) aus.</li>
-<li>Geben Sie der Datei den Namen <code>main.py</code> und klicken Sie auf &ldquo;OK&rdquo;. <code>main.py</code> ist ein besonderer Name, denn der Mikrocontroller startet dieses Programm automatisch, wenn er eingeschaltet wird.</li>
+<li>das USB-Kabel ist nur ein Ladekabel</li>
+<li>der falsche Interpreter ist ausgewählt</li>
+<li>der falsche Port ist eingestellt</li>
+<li>auf dem Board ist noch kein MicroPython installiert</li>
+<li>ein Treiber fehlt</li>
 </ul>
-</li>
-<li>
-<p><strong>Programm starten:</strong></p>
+<p>In diesen Fällen lohnt es sich, Schritt für Schritt zu prüfen statt alles gleichzeitig zu ändern.</p>
+<h2 id="wie-eltern-sinnvoll-unterstützen-können">Wie Eltern sinnvoll unterstützen können</h2>
+<p>Hilfreich ist vor allem:</p>
 <ul>
-<li>Nach dem Speichern startet das Programm oft automatisch. Falls nicht, klicken Sie auf den <strong>grünen &ldquo;Run&rdquo;-Knopf</strong> (Pfeil-Symbol) oder trennen Sie den Mikrocontroller kurz vom USB-Kabel und stecken ihn wieder ein.</li>
+<li>gemeinsam die ersten Programme starten</li>
+<li>Fehlermeldungen in Ruhe lesen</li>
+<li>den Aufbau ordentlich halten</li>
+<li>kleine Fortschritte ernst nehmen</li>
 </ul>
-</li>
-</ol>
-<p>Die LED auf dem Mikrocontroller (oder die extern angeschlossene LED) sollte nun im Sekundentakt blinken! Herzlichen Glückwunsch, Sie haben erfolgreich ein MicroPython-Programm auf den Mikrocontroller Ihres Kindes geladen!</p>
-<h2 id="tipps-zur-unterstützung-eurer-kinder-">Tipps zur Unterstützung eurer Kinder 🤝</h2>
-<ul>
-<li><strong>Gemeinsam entdecken:</strong> Setzen Sie sich zusammen hin und probieren Sie die Beispiele aus. Fragen Sie Ihr Kind, was es als Nächstes bauen möchte.</li>
-<li><strong>Fehler sind Freunde:</strong> Wenn ein Programm nicht sofort funktioniert, ist das kein Problem! Helfen Sie Ihrem Kind, die Fehlermeldungen in Thonny zu lesen und gemeinsam nach Lösungen zu suchen. Das ist ein wichtiger Teil des Lernprozesses.</li>
-<li><strong>Ermutigen und Loben:</strong> Jedes funktionierende Projekt, egal wie klein, ist ein Erfolg! Loben Sie die Kreativität und den Forschergeist Ihres Kindes.</li>
-<li><strong>Sicherheit beachten:</strong> Erinnern Sie Ihr Kind immer daran, vorsichtig mit Elektronik umzugehen und die Anleitungen genau zu befolgen.</li>
-</ul>
-<p>Mit Thonny und eurer Unterstützung steht dem MicroPython-Abenteuer eurer Kinder nichts mehr im Wege! Es ist eine wunderbare Möglichkeit, logisches Denken, Problemlösung und Kreativität zu fördern.</p>
-<p><strong>Euer Lumi-Fuchs – Euer Programmier-Begleiter!</strong> 🦊💻✨</p>
+<p>Kinder müssen am Anfang nicht alles verstehen. Wichtiger ist, dass sie ausprobieren, Rückmeldungen sehen und lernen, Probleme systematisch zu prüfen.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -239,25 +205,25 @@ Speichern Sie das Programm wie gewohnt über <strong>File → Save as&hellip;</s
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Teilen auf Twitter" data-sharer="twitter" data-url="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" data-title="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!" data-hashtags="Thonny,IDE,MicroPython,Programmieren,Eltern,Anleitung,Software"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" data-hashtag="Thonny"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" data-title="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Line" data-sharer="line" data-url="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" data-title="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!"><i data-svg-src="/EK-blog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="http://localhost:1313/EK-blog/posts/thonny-installation-manual/" data-title="Dein Start ins MicroPython-Abenteuer: Thonny IDE für Eltern erklärt!" data-image="header_thonny.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Teilen auf Twitter" data-sharer="twitter" data-url="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" data-title="Thonny für Eltern: Einstieg in Python und MicroPython" data-hashtags="Thonny,Python,MicroPython,Eltern,Software"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" data-hashtag="Thonny"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Hacker News" data-sharer="hackernews" data-url="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" data-title="Thonny für Eltern: Einstieg in Python und MicroPython"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Line" data-sharer="line" data-url="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" data-title="Thonny für Eltern: Einstieg in Python und MicroPython"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="https://elec-kids.github.io/EK-blog/posts/thonny-installation-manual/" data-title="Thonny für Eltern: Einstieg in Python und MicroPython" data-image="header_thonny.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/EK-blog/tags/thonny/">Thonny</a>,&nbsp;<a href="/EK-blog/tags/ide/">IDE</a>,&nbsp;<a href="/EK-blog/tags/micropython/">MicroPython</a>,&nbsp;<a href="/EK-blog/tags/programmieren/">Programmieren</a>,&nbsp;<a href="/EK-blog/tags/eltern/">Eltern</a>,&nbsp;<a href="/EK-blog/tags/anleitung/">Anleitung</a>,&nbsp;<a href="/EK-blog/tags/software/">Software</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/EK-blog/tags/thonny/">Thonny</a>,&nbsp;<a href="/EK-blog/tags/python/">Python</a>,&nbsp;<a href="/EK-blog/tags/micropython/">MicroPython</a>,&nbsp;<a href="/EK-blog/tags/eltern/">Eltern</a>,&nbsp;<a href="/EK-blog/tags/software/">Software</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Zurück</a></span>&nbsp;|&nbsp;<span><a href="/EK-blog/">Startseite</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/EK-blog/posts/inhalte-auf-eleckids/" class="prev" rel="prev" title="Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Hinter den Kulissen von ElecKids: Wie wir unsere Inhalte erstellen!</a>
-            <a href="/EK-blog/posts/was-bringt-dir-das/" class="next" rel="next" title="Deine Superkräfte für die Zukunft: Welche Fähigkeiten lernst du mit Programmierung und Mikrocontrollern?">Deine Superkräfte für die Zukunft: Welche Fähigkeiten lernst du mit Programmierung und Mikrocontrollern?<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/EK-blog/posts/inhalte-auf-eleckids/" class="prev" rel="prev" title="Wie wir Inhalte auf ElecKids erstellen"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Wie wir Inhalte auf ElecKids erstellen</a>
+            <a href="/EK-blog/posts/was-bringt-dir-das/" class="next" rel="next" title="Was du mit Programmierung und Mikrocontrollern lernst">Was du mit Programmierung und Mikrocontrollern lernst<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.151.0">Hugo</a> | Thema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/EK-blog/" target="_blank">ElecKids</a></span></div>
+        <div class="footer-container"><div class="footer-line">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.159.1">Hugo</a> | Thema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/EK-blog/" target="_blank">ElecKids</a></span></div>
         </div>
     </footer></div>
 
@@ -266,5 +232,5 @@ Speichern Sie das Programm wie gewohnt über <strong>File → Save as&hellip;</s
             </a><a href="#" id="view-comments" class="fixed-button" title="Kommentare anzeigen">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="/EK-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/EK-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/EK-blog/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"In Zwischenablage kopieren","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/EK-blog/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"In Zwischenablage kopieren","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/EK-blog/js/theme.min.js"></script></body>
 </html>

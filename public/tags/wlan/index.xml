@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WLAN on ElecKids - Homepage</title>
-    <link>http://localhost:1313/EK-blog/tags/wlan/</link>
+    <link>https://elec-kids.github.io/EK-blog/tags/wlan/</link>
     <description>Recent content in WLAN on ElecKids - Homepage</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/EK-blog/tags/wlan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elec-kids.github.io/EK-blog/tags/wlan/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Die Superhelden-Teams deiner Projekte: ESP8266 und Raspberry Pi Pico!</title>
-      <link>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</link>
+      <title>ESP8266 und Raspberry Pi Pico im Vergleich</title>
+      <link>https://elec-kids.github.io/EK-blog/posts/superhelden-deiner-projekte/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/EK-blog/posts/superhelden-deiner-projekte/</guid>
-      <description>Lerne die zwei coolsten Entwicklerboards kennen: das ESP8266-Board mit Superkräften für WLAN und das Raspberry Pi Pico Board mit dem blitzschnellen RP2040-Chip. Finde heraus, welches Team perfekt für dein nächstes Projekt ist!</description>
+      <guid>https://elec-kids.github.io/EK-blog/posts/superhelden-deiner-projekte/</guid>
+      <description>ESP8266 und Raspberry Pi Pico sind zwei beliebte Boards für Einsteigerprojekte. Hier erfährst du, worin sie sich unterscheiden und welches Board besser zu deinem Projekt passt.</description>
     </item>
   </channel>
 </rss>

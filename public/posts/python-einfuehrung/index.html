@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head><script src="/EK-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=EK-blog/livereload" data-no-instant defer></script>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller! - ElecKids - Homepage</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="http://localhost:1313/EK-blog/posts/python-einfuehrung/">
+        <title>Python kennenlernen: Dein erster Einstieg ins Programmieren - ElecKids - Homepage</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/">
   <meta property="og:site_name" content="ElecKids - Homepage">
-  <meta property="og:title" content="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!">
-  <meta property="og:description" content="Lerne Python kennen, die super-einfache Programmiersprache, mit der du schon am Computer coole Dinge zaubern kannst – ganz ohne Elektronik!">
+  <meta property="og:title" content="Python kennenlernen: Dein erster Einstieg ins Programmieren">
+  <meta property="og:description" content="Mit Python kannst du schnell in die Welt des Programmierens einsteigen. In diesem Beitrag schreibst du dein erstes kleines Programm und probierst einfache Befehle direkt in Thonny aus.">
   <meta property="og:locale" content="de">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -15,33 +15,32 @@
     <meta property="article:modified_time" content="2025-10-07T00:00:00+00:00">
     <meta property="article:tag" content="Python">
     <meta property="article:tag" content="Programmieren">
-    <meta property="article:tag" content="Code">
     <meta property="article:tag" content="Grundlagen">
-    <meta property="article:tag" content="Tutorials">
+    <meta property="article:tag" content="Einstieg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!">
-  <meta name="twitter:description" content="Lerne Python kennen, die super-einfache Programmiersprache, mit der du schon am Computer coole Dinge zaubern kannst – ganz ohne Elektronik!">
+  <meta name="twitter:title" content="Python kennenlernen: Dein erster Einstieg ins Programmieren">
+  <meta name="twitter:description" content="Mit Python kannst du schnell in die Welt des Programmierens einsteigen. In diesem Beitrag schreibst du dein erstes kleines Programm und probierst einfache Befehle direkt in Thonny aus.">
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/EK-blog/posts/python-einfuehrung/" /><link rel="prev" href="http://localhost:1313/EK-blog/posts/recycling/" /><link rel="stylesheet" href="/EK-blog/css/style.min.css"><link rel="preload" href="/EK-blog/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/EK-blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/EK-blog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/EK-blog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" /><link rel="prev" href="https://elec-kids.github.io/EK-blog/posts/recycling/" /><link rel="stylesheet" href="/EK-blog/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!",
+        "headline": "Python kennenlernen: Dein erster Einstieg ins Programmieren",
         "inLanguage": "de",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/EK-blog\/posts\/python-einfuehrung\/"
-        },"genre": "posts","keywords": "Python, Programmieren, Code, Grundlagen, Tutorials","wordcount":  767 ,
-        "url": "http:\/\/localhost:1313\/EK-blog\/posts\/python-einfuehrung\/","datePublished": "2025-10-07T00:00:00+00:00","dateModified": "2025-10-07T00:00:00+00:00","publisher": {
+            "@id": "https:\/\/elec-kids.github.io\/EK-blog\/posts\/python-einfuehrung\/"
+        },"genre": "posts","keywords": "Python, Programmieren, Grundlagen, Einstieg","wordcount":  472 ,
+        "url": "https:\/\/elec-kids.github.io\/EK-blog\/posts\/python-einfuehrung\/","datePublished": "2025-10-07T00:00:00+00:00","dateModified": "2025-10-07T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
-                "name": "Lumi-Fuchs"
+                "name": "ElecKids"
             },"description": ""
     }
     </script></head>
@@ -76,10 +75,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Inhalt</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/EK-blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Lumi-Fuchs</a></span>&nbsp;<span class="post-category">Enthalten in <a href="/EK-blog/categories/tutorials/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tutorials</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-07">2025-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;767 Wörter&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 Minuten&nbsp;</div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Python kennenlernen: Dein erster Einstieg ins Programmieren</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/EK-blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>ElecKids</a></span>&nbsp;<span class="post-category">Enthalten in <a href="/EK-blog/categories/tutorials/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tutorials</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-07">2025-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;472 Wörter&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 Minuten&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/EK-blog/svg/loading.min.svg"
@@ -94,133 +93,80 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#was-ist-python--die-sprache-der-computer-freunde-">Was ist Python? – Die Sprache der Computer-Freunde! 🗣️</a></li>
-    <li><a href="#warum-python-lernen--deine-superkraft-für-die-zukunft-">Warum Python lernen? – Deine Superkraft für die Zukunft! 💪</a></li>
-    <li><a href="#dein-erster-python-zauber-hallo-welt-">Dein erster Python-Zauber: &ldquo;Hallo Welt!&rdquo; 🌍</a>
+    <li><a href="#was-ist-python">Was ist Python?</a></li>
+    <li><a href="#warum-python-ein-guter-start-ist">Warum Python ein guter Start ist</a></li>
+    <li><a href="#was-du-brauchst">Was du brauchst</a></li>
+    <li><a href="#dein-erstes-programm">Dein erstes Programm</a></li>
+    <li><a href="#programm-speichern">Programm speichern</a></li>
+    <li><a href="#mehr-ausprobieren">Mehr ausprobieren</a>
       <ul>
-        <li><a href="#-was-du-brauchst">🔧 Was du brauchst:</a></li>
-        <li><a href="#-tipp-von-lumi-fuchs">💡 Tipp von Lumi-Fuchs:</a></li>
-        <li><a href="#-schritt-1-dein-erstes-programm-schreiben">🧙 Schritt 1: Dein erstes Programm schreiben</a></li>
-        <li><a href="#-schritt-2-speichern">💾 Schritt 2: Speichern</a></li>
-        <li><a href="#-schritt-3-ausführen">▶️ Schritt 3: Ausführen</a></li>
+        <li><a href="#mit-python-rechnen">Mit Python rechnen</a></li>
+        <li><a href="#eine-eingabe-abfragen">Eine Eingabe abfragen</a></li>
       </ul>
     </li>
-    <li><a href="#mehr-code-zauber-rechnen-und-fragen-stellen-">Mehr Code-Zauber: Rechnen und Fragen stellen! ➕❓</a>
-      <ul>
-        <li><a href="#-rechnen-mit-python">🔢 Rechnen mit Python</a></li>
-        <li><a href="#-fragen-stellen-mit-python">❓ Fragen stellen mit Python</a></li>
-      </ul>
-    </li>
-    <li><a href="#dein-weg-zum-code-meister-">Dein Weg zum Code-Meister! 🧙‍♀️</a>
-      <ul>
-        <li><a href="#-deine-mission">🎯 Deine Mission:</a></li>
-      </ul>
-    </li>
+    <li><a href="#worauf-es-am-anfang-ankommt">Worauf es am Anfang ankommt</a></li>
+    <li><a href="#wie-es-danach-weitergeht">Wie es danach weitergeht</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="dein-erster-code-zauber-programmieren-mit-python--ganz-ohne-mikrocontroller-">Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller! 🐍✨</h1>
-<p>Hallo, meine kleinen Code-Magier! 🦊
-Euer Lumi-Fuchs ist heute hier, um euch in die Welt des Programmierens einzuführen – und das Beste daran: Ihr braucht dafür noch nicht mal einen Mikrocontroller!
-Wir lernen heute <strong>Python</strong> kennen, eine der beliebtesten und einfachsten Programmiersprachen der Welt.
-Stell dir vor, du kannst deinem Computer Befehle geben, und er macht genau das, was du willst! Ist das nicht cool? 🚀</p>
-<hr>
-<h2 id="was-ist-python--die-sprache-der-computer-freunde-">Was ist Python? – Die Sprache der Computer-Freunde! 🗣️</h2>
-<p>Python ist eine Programmiersprache, die von vielen Menschen auf der ganzen Welt benutzt wird.
-Sie ist bekannt dafür, dass sie sehr <strong>einfach zu lernen</strong> ist und fast wie normales Englisch aussieht.
-Das macht sie perfekt für alle, die gerade erst mit dem Programmieren anfangen.</p>
-<p>Stell dir vor, du möchtest deinem Computer sagen:
-„Hallo, wie geht es dir?“
-In Python sieht das fast genauso aus, wie du es sagen würdest:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, wie geht es dir?&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p>Wenn du diesen Befehl deinem Computer gibst, wird er „Hallo, wie geht es dir?“ auf deinem Bildschirm anzeigen.
-Du hast gerade deinen ersten Code geschrieben und dein Computer hat ihn verstanden! 🎉</p>
-<hr>
-<h2 id="warum-python-lernen--deine-superkraft-für-die-zukunft-">Warum Python lernen? – Deine Superkraft für die Zukunft! 💪</h2>
-<p>Python ist nicht nur einfach, sondern auch super-mächtig!
-Du kannst damit ganz viele verschiedene Dinge machen:</p>
+            </div><div class="content" id="content"><h1 id="python-kennenlernen-dein-erster-einstieg-ins-programmieren">Python kennenlernen: Dein erster Einstieg ins Programmieren</h1>
+<p>Python ist eine Programmiersprache, mit der viele Menschen ihre ersten Schritte im Programmieren machen. Das liegt vor allem daran, dass der Code oft gut lesbar ist und du schnell sichtbare Ergebnisse bekommst. Für den Einstieg ist das ideal.</p>
+<p>Bevor du mit Mikrocontrollern arbeitest, lohnt es sich, Python zuerst direkt am Computer auszuprobieren. So lernst du, wie Programme aufgebaut sind, wie Eingaben und Ausgaben funktionieren und wie genau ein Computer Befehle abarbeitet.</p>
+<h2 id="was-ist-python">Was ist Python?</h2>
+<p>Eine Programmiersprache ist eine Sprache, mit der du einem Computer genaue Anweisungen gibst. Python ist dabei besonders einsteigerfreundlich, weil viele Befehle kurz und klar sind.</p>
+<p>Ein sehr bekanntes erstes Beispiel ist:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, Welt!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>print(...)</code> bedeutet: Zeige etwas auf dem Bildschirm an. Wenn du diesen Befehl startest, schreibt Python den Text in das Ausgabefenster.</p>
+<h2 id="warum-python-ein-guter-start-ist">Warum Python ein guter Start ist</h2>
+<p>Python eignet sich gut für den Anfang, weil du damit schnell unterschiedliche Dinge ausprobieren kannst:</p>
 <ul>
-<li><strong>Spiele programmieren:</strong> Deine eigenen kleinen Abenteuer und Rätsel erschaffen.</li>
-<li><strong>Webseiten bauen:</strong> Die Grundlagen für deine eigene Homepage legen.</li>
-<li><strong>Daten analysieren:</strong> Große Mengen an Informationen sortieren und verstehen.</li>
-<li><strong>Künstliche Intelligenz entwickeln:</strong> Ja, sogar das! Viele Wissenschaftler nutzen Python genau dafür.</li>
-<li><strong>Und natürlich:</strong> Mikrocontroller wie den ESP8266 oder Raspberry Pi Pico programmieren! (Dazu kommen wir später!)</li>
+<li>Texte ausgeben</li>
+<li>mit Zahlen rechnen</li>
+<li>Fragen stellen und Antworten speichern</li>
+<li>kleine Spiele und Programme bauen</li>
+<li>später auch Mikrocontroller ansteuern</li>
 </ul>
-<p>Python ist wie ein Schweizer Taschenmesser für Programmierer – es kann fast alles!
-Und das Beste: Du kannst es direkt auf deinem Computer ausprobieren, ganz ohne zusätzliche Hardware.</p>
-<hr>
-<h2 id="dein-erster-python-zauber-hallo-welt-">Dein erster Python-Zauber: &ldquo;Hallo Welt!&rdquo; 🌍</h2>
-<p>Bevor wir mit Elektronik loslegen, wollen wir erst einmal sehen, wie Programmieren am Computer funktioniert.
-Das ist wie das Aufwärmen vor dem Sport!</p>
-<h3 id="-was-du-brauchst">🔧 Was du brauchst:</h3>
-<ol>
-<li><strong>Einen Computer:</strong> Egal ob Windows, macOS oder Linux.</li>
-<li><strong>Python installiert:</strong> Keine Sorge – es ist oft schon drauf oder lässt sich superleicht installieren.
-(Frag deine Eltern oder eine erwachsene Person, wenn du Hilfe brauchst!)</li>
-<li><strong>Die Thonny IDE:</strong> Das perfekte Programm, um mit Python zu starten!
-Lade sie kostenlos von <a href="https://thonny.org/" target="_blank" rel="noopener noreffer ">https://thonny.org/</a> herunter und installiere sie.</li>
-</ol>
-<hr>
-<h3 id="-tipp-von-lumi-fuchs">💡 Tipp von Lumi-Fuchs:</h3>
-<p><strong>Thonny</strong> ist wie ein freundlicher Zauberstab für deinen Code!
-Du kannst hier deine Programme schreiben, speichern und mit nur <strong>einem Klick starten</strong> – ganz ohne komplizierte Eingabefenster oder Terminal-Befehle.</p>
-<hr>
-<h3 id="-schritt-1-dein-erstes-programm-schreiben">🧙 Schritt 1: Dein erstes Programm schreiben</h3>
-<p>Öffne <strong>Thonny</strong> und tippe genau das hier in das große Textfeld:</p>
+<p>Du lernst dabei nicht nur einzelne Befehle. Du lernst vor allem, Probleme in kleine Schritte zu zerlegen und Anweisungen genau zu formulieren.</p>
+<h2 id="was-du-brauchst">Was du brauchst</h2>
+<p>Für diesen Einstieg reicht ein Computer mit <strong>Thonny</strong>. Thonny ist eine einfache Entwicklungsumgebung, in der du Python-Code schreiben und direkt ausführen kannst. Wenn Thonny noch nicht installiert ist, lass dir dabei von einer erwachsenen Person helfen.</p>
+<h2 id="dein-erstes-programm">Dein erstes Programm</h2>
+<p>Öffne Thonny und schreibe diesen Code in das große Textfeld:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, ElecKids-Welt!&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><hr>
-<h3 id="-schritt-2-speichern">💾 Schritt 2: Speichern</h3>
-<p>Klicke oben auf das <strong>Diskettensymbol</strong> 💾 oder gehe auf
-<strong>Datei → Speichern unter&hellip;</strong>
-und gib deiner Datei den Namen <code>hallo_welt.py</code>.</p>
-<p>Das <code>.py</code> am Ende ist super-wichtig – es sagt deinem Computer:
-👉 „Das hier ist ein Python-Programm!“</p>
-<hr>
-<h3 id="-schritt-3-ausführen">▶️ Schritt 3: Ausführen</h3>
-<p>Jetzt kommt der magische Moment!
-Drücke oben auf den <strong>grünen Play-Button (▶️)</strong> in Thonny – und schon zaubert dein Computer:</p>
-<pre tabindex="0"><code>Hallo, ElecKids-Welt!
-</code></pre><p>auf deinen Bildschirm. 🎉
-Du hast gerade dein <strong>erstes Programm ausgeführt</strong> – großartig gemacht!</p>
-<hr>
-<h2 id="mehr-code-zauber-rechnen-und-fragen-stellen-">Mehr Code-Zauber: Rechnen und Fragen stellen! ➕❓</h2>
-<p>Python kann nicht nur Text anzeigen, sondern auch rechnen und sogar mit dir „reden“!</p>
-<hr>
-<h3 id="-rechnen-mit-python">🔢 Rechnen mit Python</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1"># Addieren</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">-</span> <span class="mi">4</span><span class="p">)</span> <span class="c1"># Subtrahieren</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">6</span> <span class="o">*</span> <span class="mi">7</span><span class="p">)</span>  <span class="c1"># Multiplizieren</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">20</span> <span class="o">/</span> <span class="mi">5</span><span class="p">)</span> <span class="c1"># Dividieren</span>
-</span></span></code></pre></div><p>Probiere es aus!
-Ändere die Zahlen, speichere dein Programm (z. B. als <code>rechnen.py</code>) und drücke wieder auf <strong>Play</strong>.
-So lernst du spielerisch, wie dein Computer rechnet!</p>
-<hr>
-<h3 id="-fragen-stellen-mit-python">❓ Fragen stellen mit Python</h3>
+</span></span></code></pre></div><p>Starte das Programm mit dem grünen Play-Button. Unten im Fenster solltest du dann die Ausgabe sehen:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Hallo, ElecKids-Welt!
+</span></span></code></pre></div><p>Damit hast du dein erstes Python-Programm ausgeführt.</p>
+<h2 id="programm-speichern">Programm speichern</h2>
+<p>Speichere die Datei zum Beispiel als <code>hallo_welt.py</code>.</p>
+<p>Die Endung <code>.py</code> zeigt: Das ist eine Python-Datei.</p>
+<h2 id="mehr-ausprobieren">Mehr ausprobieren</h2>
+<p>Wenn das erste Beispiel funktioniert, kannst du direkt weitermachen.</p>
+<h3 id="mit-python-rechnen">Mit Python rechnen</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">-</span> <span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">6</span> <span class="o">*</span> <span class="mi">7</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">20</span> <span class="o">/</span> <span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></div><p>Ändere die Zahlen und beobachte, was passiert.</p>
+<h3 id="eine-eingabe-abfragen">Eine Eingabe abfragen</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Wie heißt du? &#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, &#34;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&#34;! Schön, dich kennenzulernen!&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p>Wenn du dieses Programm startest, fragt dein Computer dich nach deinem Namen.
-Tippe ihn ein und drücke <strong>Enter</strong> – und schon antwortet dein Programm freundlich zurück!
-Damit hast du dein erstes <strong>interaktives Programm</strong> gebaut. 🧠</p>
-<hr>
-<h2 id="dein-weg-zum-code-meister-">Dein Weg zum Code-Meister! 🧙‍♀️</h2>
-<p>Das ist erst der Anfang deiner Code-Reise!
-Mit Python kannst du noch viel mehr lernen und entdecken.
-Es ist wie eine neue Sprache, die dir die Tür zu einer ganz neuen Welt öffnet.
-Je mehr du übst, desto stärker werden deine <strong>Code-Superkräfte</strong>! ⚡</p>
-<p>In unseren zukünftigen <strong>ElecKids-Projekten</strong> werden wir Python nutzen,
-um <strong>Mikrocontrollern Leben einzuhauchen</strong> –
-aber zuerst ist es wichtig, dass du die Grundlagen des Programmierens beherrschst.</p>
-<hr>
-<h3 id="-deine-mission">🎯 Deine Mission:</h3>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hallo, &#34;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&#34;!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Hier passiert gleich mehreres:</p>
 <ul>
-<li>Probiere die Beispiele aus.</li>
-<li>Ändere Texte oder Zahlen.</li>
-<li>Erfinde eigene kleine Programme.</li>
-<li>Hab Spaß beim Experimentieren!</li>
+<li><code>input(...)</code> wartet auf eine Eingabe von dir.</li>
+<li>Der eingegebene Text wird in der Variable <code>name</code> gespeichert.</li>
+<li>Danach wird der Text mit deinem Namen ausgegeben.</li>
 </ul>
-<p>Wenn du Fragen hast, sind wir von <strong>ElecKids</strong> immer für dich da.
-Gemeinsam machen wir dich Schritt für Schritt zum <strong>Code-Magier</strong>! 🪄</p>
-<hr>
-<p><strong>Dein Lumi-Fuchs – Dein Code-Coach!</strong> 🦊🐍💻✨</p>
+<p>So entstehen erste interaktive Programme.</p>
+<h2 id="worauf-es-am-anfang-ankommt">Worauf es am Anfang ankommt</h2>
+<p>Beim Programmieren geht es am Anfang nicht darum, möglichst viel auswendig zu können. Wichtiger ist:</p>
+<ul>
+<li>genau hinschauen</li>
+<li>kleine Änderungen testen</li>
+<li>Fehlermeldungen lesen</li>
+<li>dranbleiben, wenn etwas nicht sofort klappt</li>
+</ul>
+<p>Schon mit sehr kurzen Programmen kannst du viel lernen.</p>
+<h2 id="wie-es-danach-weitergeht">Wie es danach weitergeht</h2>
+<p>Wenn du dich mit Ausgaben, Eingaben und einfachen Befehlen sicherer fühlst, kannst du den nächsten Schritt machen und Python für echte Hardware benutzen. Dann steuerst du nicht mehr nur Text auf dem Bildschirm, sondern zum Beispiel LEDs, Taster oder Sensoren.</p>
+<p>Für den Anfang reicht aber genau das: schreiben, starten, ändern, noch einmal testen.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -230,24 +176,24 @@ Gemeinsam machen wir dich Schritt für Schritt zum <strong>Code-Magier</strong>!
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Teilen auf Twitter" data-sharer="twitter" data-url="http://localhost:1313/EK-blog/posts/python-einfuehrung/" data-title="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!" data-hashtags="Python,Programmieren,Code,Grundlagen,Tutorials"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="http://localhost:1313/EK-blog/posts/python-einfuehrung/" data-hashtag="Python"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/EK-blog/posts/python-einfuehrung/" data-title="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Line" data-sharer="line" data-url="http://localhost:1313/EK-blog/posts/python-einfuehrung/" data-title="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!"><i data-svg-src="/EK-blog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="http://localhost:1313/EK-blog/posts/python-einfuehrung/" data-title="Dein erster Code-Zauber: Programmieren mit Python – ganz ohne Mikrocontroller!" data-image="header_python.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Teilen auf Twitter" data-sharer="twitter" data-url="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" data-title="Python kennenlernen: Dein erster Einstieg ins Programmieren" data-hashtags="Python,Programmieren,Grundlagen,Einstieg"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" data-hashtag="Python"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Hacker News" data-sharer="hackernews" data-url="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" data-title="Python kennenlernen: Dein erster Einstieg ins Programmieren"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf Line" data-sharer="line" data-url="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" data-title="Python kennenlernen: Dein erster Einstieg ins Programmieren"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="https://elec-kids.github.io/EK-blog/posts/python-einfuehrung/" data-title="Python kennenlernen: Dein erster Einstieg ins Programmieren" data-image="header_python.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/EK-blog/tags/python/">Python</a>,&nbsp;<a href="/EK-blog/tags/programmieren/">Programmieren</a>,&nbsp;<a href="/EK-blog/tags/code/">Code</a>,&nbsp;<a href="/EK-blog/tags/grundlagen/">Grundlagen</a>,&nbsp;<a href="/EK-blog/tags/tutorials/">Tutorials</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/EK-blog/tags/python/">Python</a>,&nbsp;<a href="/EK-blog/tags/programmieren/">Programmieren</a>,&nbsp;<a href="/EK-blog/tags/grundlagen/">Grundlagen</a>,&nbsp;<a href="/EK-blog/tags/einstieg/">Einstieg</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Zurück</a></span>&nbsp;|&nbsp;<span><a href="/EK-blog/">Startseite</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/EK-blog/posts/recycling/" class="prev" rel="prev" title="Dein Schatz im Müll: Kostenloses Material für deine Projekte!"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Dein Schatz im Müll: Kostenloses Material für deine Projekte!</a></div>
+    <div class="post-nav"><a href="/EK-blog/posts/recycling/" class="prev" rel="prev" title="Bauteile wiederverwenden: Material für neue Projekte finden"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Bauteile wiederverwenden: Material für neue Projekte finden</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.151.0">Hugo</a> | Thema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/EK-blog/" target="_blank">ElecKids</a></span></div>
+        <div class="footer-container"><div class="footer-line">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.159.1">Hugo</a> | Thema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/EK-blog/" target="_blank">ElecKids</a></span></div>
         </div>
     </footer></div>
 
@@ -256,5 +202,5 @@ Gemeinsam machen wir dich Schritt für Schritt zum <strong>Code-Magier</strong>!
             </a><a href="#" id="view-comments" class="fixed-button" title="Kommentare anzeigen">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="/EK-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/EK-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/EK-blog/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"In Zwischenablage kopieren","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/EK-blog/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"In Zwischenablage kopieren","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/EK-blog/js/theme.min.js"></script></body>
 </html>
