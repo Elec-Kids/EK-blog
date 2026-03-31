@@ -9,11 +9,53 @@
     <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://elec-kids.github.io/EK-blog/programmierung/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Funktionen</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/funktionen/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/funktionen/</guid>
+      <description>Hier lernst du, was Funktionen sind, wie du sie aufrufst, wie du Werte übergibst und wie sie dir helfen, Programme übersichtlich aufzubauen.</description>
+    </item>
+    <item>
+      <title>if und else</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/if-und-else/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/if-und-else/</guid>
+      <description>Hier lernst du, wie Python Entscheidungen trifft und warum if und else für fast jedes Programm wichtig sind.</description>
+    </item>
+    <item>
+      <title>Listen und kleine Datenstrukturen</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/listen-und-kleine-datenstrukturen/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/listen-und-kleine-datenstrukturen/</guid>
+      <description>Hier lernst du, wie du mit Listen mehrere Werte gemeinsam speicherst, einzelne Einträge ansprichst und mit Schleifen verarbeitest.</description>
+    </item>
+    <item>
+      <title>Python auf dem Mikrocontroller</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/python-auf-dem-mikrocontroller/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/python-auf-dem-mikrocontroller/</guid>
+      <description>Hier lernst du, was sich ändert, wenn Python nicht mehr nur auf dem Computer läuft, sondern direkt auf einem Mikrocontroller.</description>
+    </item>
+    <item>
       <title>Python Grundlagen</title>
       <link>https://elec-kids.github.io/EK-blog/programmierung/python-grundlagen/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://elec-kids.github.io/EK-blog/programmierung/python-grundlagen/</guid>
       <description>Hier findest du den Einstieg in Python bei ElecKids: eine Übersicht kommender Tutorials, ein visueller Lernpfad und passende Artikel zum Thema Programmierung.</description>
+    </item>
+    <item>
+      <title>Schleifen mit for und while</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/schleifen-mit-for-und-while/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/schleifen-mit-for-und-while/</guid>
+      <description>Hier lernst du, wie du mit for und while Anweisungen mehrfach ausführen kannst und wann welche Schleife sinnvoll ist.</description>
+    </item>
+    <item>
+      <title>Variablen, Zahlen und Text</title>
+      <link>https://elec-kids.github.io/EK-blog/programmierung/variablen-zahlen-und-text/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elec-kids.github.io/EK-blog/programmierung/variablen-zahlen-und-text/</guid>
+      <description>Hier lernst du, wie Python sich Werte merkt, wie du mit Zahlen rechnest und wie du Text in Programmen verwendest.</description>
     </item>
   </channel>
 </rss>

@@ -22,13 +22,13 @@ Auf dieser Seite findest du den Einstieg in `Python Grundlagen` an einer Stelle.
 
 | Tutorial | Ziel | Schwierigkeit | Status |
 | --- | --- | --- | --- |
-| Python kennenlernen | Erste Befehle ausprobieren und verstehen, wie ein einfaches Programm aufgebaut ist | leicht | veröffentlicht |
-| Variablen, Zahlen und Text | Werte speichern, verändern und ausgeben | leicht | geplant |
-| if und else | Entscheidungen im Code treffen | leicht bis mittel | geplant |
-| Schleifen mit for und while | Wiederholungen sauber aufbauen | mittel | geplant |
-| Listen und kleine Datenstrukturen | Mehrere Werte gemeinsam verarbeiten | mittel | geplant |
-| Funktionen | Größere Programme in verständliche Teile aufteilen | mittel | geplant |
-| Python auf dem Mikrocontroller | Den Übergang von Python zu MicroPython verstehen | mittel | geplant |
+| <a href="{{< relref "posts/python-einfuehrung" >}}">Python kennenlernen</a> | Erste Befehle ausprobieren und verstehen, wie ein einfaches Programm aufgebaut ist | leicht | veröffentlicht |
+| <a href="{{< relref "programmierung/variablen-zahlen-und-text" >}}">Variablen, Zahlen und Text</a> | Werte speichern, verändern und ausgeben | leicht | veröffentlicht |
+| <a href="{{< relref "programmierung/if-und-else" >}}">if und else</a> | Entscheidungen im Code treffen | leicht bis mittel | veröffentlicht |
+| <a href="{{< relref "programmierung/schleifen-mit-for-und-while" >}}">Schleifen mit for und while</a> | Wiederholungen sauber aufbauen | mittel | veröffentlicht |
+| <a href="{{< relref "programmierung/listen-und-kleine-datenstrukturen" >}}">Listen und kleine Datenstrukturen</a> | Mehrere Werte gemeinsam verarbeiten | mittel | veröffentlicht |
+| <a href="{{< relref "programmierung/funktionen" >}}">Funktionen</a> | Größere Programme in verständliche Teile aufteilen | mittel | veröffentlicht |
+| <a href="{{< relref "programmierung/python-auf-dem-mikrocontroller" >}}">Python auf dem Mikrocontroller</a> | Den Übergang von Python zu MicroPython verstehen | mittel | veröffentlicht |
 
 ## Lernpfad als Blockdiagramm
 
