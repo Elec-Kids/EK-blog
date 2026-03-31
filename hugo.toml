@@ -29,27 +29,19 @@ copyright = ""
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "tags"
+    identifier = "about"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Kategorien"
-    url = "/categories/"
+    name = "Über"
+    url = "/about/"
     title = ""
 
 [params]
     defaultTheme = "auto"
     gitRepo = "https://github.com/dillonzq/LoveIt"
     dateFormat = "2006-01-02"
-    title = "LoveIt"
-    description = "Hugo theme - LoveIt"
+    title = "ElecKids"
+    description = "Elektronik und Programmieren verständlich erklärt für Kinder und Jugendliche."
     [params.author]
         name = "ElecKids"
         email = ""
@@ -73,7 +65,7 @@ copyright = ""
         [params.home.profile]
             enable = true
             title = "Willkommen bei ElecKids"
-            subtitle = "content is loading..."
+            subtitle = "Elektronik und Programmieren verständlich erklärt, mit Projekten zum Nachbauen."
         [params.home.posts]
             enable = true
 
