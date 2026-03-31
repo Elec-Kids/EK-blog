@@ -29,6 +29,49 @@ copyright = ""
     title = ""
   [[menu.main]]
     weight = 2
+    identifier = "topics"
+    pre = ""
+    post = ""
+    name = "Programmierung"
+    title = "Programmierung"
+  [[menu.main]]
+    weight = 1
+    parent = "topics"
+    identifier = "topics-python-basics"
+    pre = ""
+    post = ""
+    name = "Python Grundlagen"
+    url = "/posts/python-einfuehrung/"
+    title = "Python Grundlagen"
+  [[menu.main]]
+    weight = 2
+    parent = "topics"
+    identifier = "topics-sicherheit"
+    pre = ""
+    post = ""
+    name = "Sicherheit"
+    url = "/categories/sicherheit/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    parent = "topics"
+    identifier = "topics-software"
+    pre = ""
+    post = ""
+    name = "Software"
+    url = "/categories/software/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    parent = "topics"
+    identifier = "topics-eltern"
+    pre = ""
+    post = ""
+    name = "Für Eltern"
+    url = "/categories/elterninfo/"
+    title = ""
+  [[menu.main]]
+    weight = 3
     identifier = "about"
     pre = ""
     post = ""
