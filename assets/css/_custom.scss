@@ -169,3 +169,35 @@
     }
   }
 }
+
+.topic-articles {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.topic-article {
+  padding: 1rem 1.1rem;
+  border: 1px solid $global-border-color;
+  background: rgba(0, 0, 0, .015);
+  @include border-radius(1rem);
+
+  [theme=dark] & {
+    border-color: $global-border-color-dark;
+    background: rgba(255, 255, 255, .03);
+  }
+}
+
+.topic-article-title {
+  margin: 0 0 .35rem;
+  font-size: 1.05rem;
+}
+
+.topic-article-summary {
+  margin: 0;
+  color: $global-font-secondary-color;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}

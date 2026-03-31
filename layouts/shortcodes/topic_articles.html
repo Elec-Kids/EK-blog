@@ -1,0 +1,22 @@
+{{- $refs := split (.Get "refs") "," -}}
+<div class="topic-articles">
+  {{- range $refs -}}
+    {{- $ref := trim . " " -}}
+    {{- with site.GetPage $ref -}}
+      {{- $summary := "" -}}
+      {{- with .Params.summary -}}
+        {{- $summary = . -}}
+      {{- else with .Description -}}
+        {{- $summary = . -}}
+      {{- else -}}
+        {{- $summary = .Summary | plainify -}}
+      {{- end -}}
+      <article class="topic-article">
+        <h3 class="topic-article-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        <p class="topic-article-summary">{{ $summary }}</p>
+      </article>
+    {{- end -}}
+  {{- end -}}
+</div>

@@ -2,6 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://elec-kids.github.io/EK-blog/programmierung/</loc><lastmod>2026-03-31T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://elec-kids.github.io/EK-blog/programmierung/python-grundlagen/</loc><lastmod>2026-03-31T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://elec-kids.github.io/EK-blog/</loc><lastmod>2026-03-31T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://elec-kids.github.io/EK-blog/about/</loc><lastmod>2026-03-31T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://elec-kids.github.io/EK-blog/categories/</loc><lastmod>2025-10-07T00:00:00&#43;00:00</lastmod></url><url>

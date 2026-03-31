@@ -41,7 +41,7 @@ copyright = ""
     pre = ""
     post = ""
     name = "Python Grundlagen"
-    url = "/posts/python-einfuehrung/"
+    pageRef = "/programmierung/python-grundlagen"
     title = "Python Grundlagen"
   [[menu.main]]
     weight = 2
